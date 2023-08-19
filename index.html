@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/brands.min.css"
+        integrity="sha512-W/zrbCncQnky/EzL+/AYwTtosvrM+YG/V6piQLSe2HuKS6cmbw89kjYkp3tWFn1dkWV7L1ruvJyKbLz73Vlgfg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <img src=" ./assets/sac.jpg" alt="" class="img">
+        <div class="address flex-wrap">
+            <div class="d-flex align-items-center ">
+                <i class="fa-solid fa-location-dot fa-2xl me-3 text-secondary"></i>
+                <div>
+                    <b>Abu Dhabi</b><br>
+                    <span class="subtile-2">9th Street, M-15, , UAE</span>
+                </div>
+            </div>
+            <div class="d-flex align-items-center">
+                <i class="fa-solid fa-envelope fa-2xl me-3 text-secondary"></i>
+                <div>
+                    <b>info@superarc.net</b><br>
+                    <span class="subtile-2 ">www.superarc.net</span>
+                </div>
+            </div>
+            <div class="d-flex align-items-center">
+                <i class="fa-solid fa-phone-volume fa-2xl me-3 text-secondary"></i>
+                <div> <b>info@superarc.net</b><br>
+                    <span class="subtile-2 ">+971 547 202014</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <i class="bi bi-search d-sm-inline d-md-none d-none"></i>
+
+            <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                <div class="col">
+                    <ul class="navbar-nav justify-content-between ">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link " href="#">About</a>
+                        <a class="nav-link" href="#">Service</a>
+                        <a class="nav-link" href="#">Projects</a>
+                        <a class="nav-link" href="#">Gallery</a>
+                        <a class="nav-link" href="#">Career</a>
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </ul>
+                </div>
+                <div class="col text-end">
+                    <i class="bi bi-search d-none d-lg-inline"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Slider -->
+    <div id="hero-carousel" class="carousel slide carousel-fade  p-0" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active c-item">
+                <img src="./assets/homeA_page-0001.jpg" class="d-block w-100 c-img" alt="Slide 1">
+                <div class="carousel-caption top-0 mt-4">
+                    <h1>First slide label</h1>
+                    <h1 class="display-1 fw-bolder text-capitalize">SAC</h1>
+                </div>
+            </div>
+            <div class="carousel-item c-item">
+                <img src="./assets/homeC_page-0001.jpg" class="d-block w-100 c-img" alt="Slide 2">
+                <div class="carousel-caption top-0 mt-4">
+                    <h1>Second slide label</h1>
+                    <p class="display-1 fw-bolder text-capitalize">SAC</p>
+
+                </div>
+            </div>
+            <div class="carousel-item c-item">
+                <img src="./assets/homeA_page-0001.jpg" class="d-block w-100 c-img" alt="Slide 3">
+                <div class="carousel-caption top-0 mt-4">
+                    <h1>Third slide label</h1>
+                    <p class="display-1 fw-bolder text-capitalize">SAC</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <section class="section2  py-5">
+        <div class=" align  ">
+            <h6 class="title3 mt-5 ">ABOUT PROPOSAL </h6>
+
+            <h5 class=" mt-1 w-75 text-center text-secondary">
+                <div class="fs-1 fw-bold text-danger"> Arc Consultant (SAC) </div>Is a
+                multi-disciplinary design and engineering consultancy firm providing services of all types of
+                architectural, Structural, Infrastructural and building assessment projects with a portfolio record
+                of more than 130 projects worked with our big clients like Musanada, Etisalat,
+                Department of transport, du, Al Habtoor, The First Group, Atkins and many more.
+            </h5>
+        </div>
+
+        <div class="text-center">
+            <div class="d-flex justify-content-center m-5 gap-5 px-4 flex-wrap">
+                <div class="p-2 border border-2 custom-card p-5">
+                    <img src="https://cdn.iconscout.com/icon/free/png-256/free-liebherr-jcb-2596646-2170508.png"
+                        style="opacity:.7;" class="card-img-top w-50 " alt="...">
+                    <div class="card-body  mt-4">
+                        <h5 class="fw-bold">ARCHITECTURAL ENGINEERING SERVICES</h5>
+                        <div class="text-start  mt-4">
+                            <li type="square"> Palaces and luxury villas </li>
+                            <li type="square">Residential compounds</li>
+                            <li type="square"> Medium & high rise residential
+                            </li>
+                            <li type="square">Industrial projects </li>
+                            <li type="square">Educational projects </li>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-2 border border-2 custom-card p-5">
+                    <img src="https://cdn.iconscout.com/icon/free/png-256/free-liebherr-jcb-2596646-2170508.png"
+                        style="opacity:.7;" class="card-img-top w-50  " alt="...">
+                    <div class="card-body  mt-4">
+                        <h5 class="fw-bold">ARCHITECTURAL ENGINEERING SERVICES</h5>
+                        <div class="text-start  mt-4">
+                            <li type="square"> Palaces and luxury villas </li>
+                            <li type="square">Residential compounds</li>
+                            <li type="square"> Medium & high rise residential
+                            </li>
+                            <li type="square">Industrial projects </li>
+                            <li type="square">Educational projects </li>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-2 border border-2 custom-card p-5">
+                    <img src="https://cdn.iconscout.com/icon/free/png-256/free-liebherr-jcb-2596646-2170508.png"
+                        style="opacity:.7;" class="card-img-top w-50  " alt="...">
+                    <div class="card-body mt-4">
+                        <h5 class="fw-bold">ARCHITECTURAL ENGINEERING SERVICES</h5>
+                        <div class="text-start  mt-4">
+                            <li type="square"> Palaces and luxury villas </li>
+                            <li type="square">Residential compounds</li>
+                            <li type="square"> Medium & high rise residential
+                            </li>
+                            <li type="square">Industrial projects </li>
+                            <li type="square">Educational projects </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button class=" custom-btn">MORE ABOUT SERVICE </button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section3">
+        <div class="d-flex mt-5  bg-dark  text-light ">
+            <div class="col align-start p-0">
+                <img class=" bg-light number-image" src="./assets/homeF_page-0001.jpg" alt=""
+                    style="max-width: 100%; height: auto;">
+            </div>
+            <div class="col d-block mt-4  h-10 ms-5 ">
+                <h6>NUMBERS SPEAK</h6>
+                <h1 class=" fs-1 fw-bold text-danger">ABOUT PROPOSAL </h1>
+
+                <div class="d-flex flex-column m-5">
+                    <div class="d-flex ">
+                        <div class="border border-top-0 border-start-0 ">
+                            <div class="d-flex align-items-center pb-5 me-4">
+                                <i class="fa-solid fa-people-group fa-2xl" style="color: #dc3545;"></i>
+                                <div class="" style="margin: -25px 10px;">
+                                    <h1 id="clientCount">10 </h1> CLIENT
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="d-flex align-items-center ps-4">
+                                <i class="fa-solid fa-people-group fa-2xl" style="color: #dc3545;"></i>
+                                <div class="" style="margin: -25px 10px;">
+                                    <h1 id="marketCount">10</h1> MARKET
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex  ">
+                        <div class="d-flex align-items-center  mt-4 me-4">
+                            <i class="fa-solid fa-people-group fa-2xl" style="color: #dc3545;"></i>
+                            <div style="margin: -25px 10px;">
+                                <h1 id="partnerCount">10</h1> PARTNER
+                            </div>
+                        </div>
+
+                        <div class="border border-bottom-0 border-end-0 ">
+                            <div class="d-flex align-items-center pt-5  ps-4">
+                                <i class="fa-solid fa-people-group fa-2xl" style="color: #dc3545;"></i>
+                                <div style="margin: -25px 10px;">
+                                    <h1 id="projectCount">10</h1> PROJECT
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center m-4">
+            <button class="custom-btn">Learn More About Us </button>
+        </div>
+    </section>
+
+    <section class="section4 p-5">
+        <div class="d-flex text-start  justify-content-around flex-wrap gap-4">
+            <div style="max-width: 540px;">
+                <h6 class="fw-bold">KEY PROJECTS</h6>
+                <h2 class="fw-bold text-danger"> 450+ PROJECT RECORD</h2>
+                <p class="text-secondary">AVENIR has been successful at delivering its innovative and cost-effective
+                    solutions to its clients and partners, and has been tremendously careful at meeting the business
+                    requirements on time and has
+                    been commendable at it. This has only increased the credibility of the company in the industries it
+                    has been servicing and it strives to add value to all the projects it undertakes.
+                    At present, AVENIR is constantly striving to deliver the best in a plethora of diverse ongoing
+                    projects</p>
+
+            </div>
+
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col">
+                        <img src="https://static.propsearch.ae/dubai-locations/the-diamond-15832_xl.jpg"
+                            class="img-fluid rounded-start" alt="..." style="height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="col">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold fw-bold">The Diamond Tower</h5>
+                            <p c lass="card-text">
+                                Track Modification for Yas marina circuit - Geotechnical Assessment .
+                                Design & Supervision of soil improvement works in relation to track located at YAS
+                                Marina Circuit, Abu Dhabi
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-3 " style="max-width: 540px ;">
+                <div class="row g-0">
+                    <div class="col-md-12 ">
+                        <img src="https://www.timeoutabudhabi.com/cloud/timeoutabudhabi/2021/09/09/2I6Fus5B-Abu-Dhabi-Grand-Prix-2021-1.jpg"
+                            class="img-fluid rounded-start  " style="height: 100%; object-fit: cover;" alt="...">
+                    </div>
+                    <div class="col-md-12">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Yas Marina Circuit, ADMM</h5>
+                            <p c lass="card-text">
+                                Track Modification for Yas marina circuit - Geotechnical Assessment .
+                                Design & Supervision of
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-12">
+                        <img src="https://images.skyscrapercenter.com/building/_5794.jpg"
+                            class="img-fluid rounded-start " alt="..." style="    max-height: 361px;
+                            width: 100%; object-fit: cover;">
+                    </div>
+                    <div class="col">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">The Ciel Dubai</h5>
+                            <p c lass="card-text">
+                                Track Modification for Yas marina circuit - Geotechnical Assessment. Design &
+                                Supervision of soil improvement works in relation to track located at YAS
+                                Marina Circuit, Abu Dhabi
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <button class="custom-btn">More About Projects</button>
+        </div>
+    </section>
+
+    <section class="mt-4">
+        <div class="text-center text-secondary">
+            <h6 class="text-bold">OUR ESTEEMED CLIENTS</h6>
+            <h1 class="w-100">We are Proud to Work With</h1>
+        </div>
+        <div class="clients-container">
+            <div class="clients-image">
+                <img src="https://seeklogo.com/images/A/abu-dhabi-city-municipality-logo-F9BA57D321-seeklogo.com.png"
+                    class="border p-4" alt="logo">
+                <img src="https://seeklogo.com/images/A/abu-dhabi-city-municipality-logo-F9BA57D321-seeklogo.com.png"
+                    class="border p-4" alt="logo">
+                <img src="https://seeklogo.com/images/A/abu-dhabi-city-municipality-logo-F9BA57D321-seeklogo.com.png"
+                    class="border p-4" alt="logo">
+                <img src="https://seeklogo.com/images/A/abu-dhabi-city-municipality-logo-F9BA57D321-seeklogo.com.png"
+                    class="border p-4" alt="logo">
+
+                <img src="https://seeklogo.com/images/A/abu-dhabi-city-municipality-logo-F9BA57D321-seeklogo.com.png"
+                    class="border p-4" alt="logo">
+                <img src="https://seeklogo.com/images/A/abu-dhabi-city-municipality-logo-F9BA57D321-seeklogo.com.png"
+                    class="border p-4" alt="logo">
+                <img src="https://seeklogo.com/images/A/abu-dhabi-city-municipality-logo-F9BA57D321-seeklogo.com.png"
+                    class="border p-4" alt="logo">
+                <img src="https://seeklogo.com/images/A/abu-dhabi-city-municipality-logo-F9BA57D321-seeklogo.com.png"
+                    class="border p-4" alt="logo">
+                <img src="https://seeklogo.com/images/A/abu-dhabi-city-municipality-logo-F9BA57D321-seeklogo.com.png"
+                    class="border p-4" alt="logo">
+                <img src="https://seeklogo.com/images/A/abu-dhabi-city-municipality-logo-F9BA57D321-seeklogo.com.png"
+                    class="border p-4" alt="logo">
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-5">
+        <footer class="bg-danger text-light">
+            <div class="container pt-5">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="row">
+                            <div class="col-md-4 mb-md-0 mb-4">
+                                <h2 class="footer-heading"><img src="./assets/sac.jpg" alt="" class="w-50 p-2 bg-light">
+                                </h2>
+                                <ul class="list-unstyled">
+                                    <div class="d-block"> 9th Street, M-15, Abu Dhabi, UAE</div>
+                                    <div class="d-block">+971 547 202014</div>
+                                    <div class="d-block"> info@superarc.net</div>
+                                    <div class="d-block"> www.superarc.net</div>
+                                </ul>
+                            </div>
+                            <div class="col-md-4 mb-md-0 mb-4">
+                                <h2 class="footer-heading">Company</h2>
+                                <ul class="list-unstyled">
+                                    <div href="#" class="d-block">Our services</div>
+                                    <li>
+                                        <div href="#" class=" text-decoration-0 d-block">
+                                            <i class="bi bi-arrow-right-short"></i>Clients
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div href="#" class="d-block"> <i class="bi bi-arrow-right-short"></i> Contact
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div href="#" class="d-block"> <i class="bi bi-arrow-right-short"></i>Press
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4 mb-md-0 mb-4">
+                                <h2 class="footer-heading">Brouchure</h2>
+                                <ul class="list-unstyled">
+                                    <div>Download Brouchure</div>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 mb-md-0 mb-4">
+                        <h2 class="footer-heading">Subscribe</h2>
+                        <form action="#" class="subscribe-form">
+                            <div class="form-group d-flex gap-2">
+                                <input type="text" class="form-control rounded-left" placeholder="Enter email address"
+                                    fdprocessedid="40b6yd">
+                                <button type="submit" class="form-control submit rounded-right"
+                                    fdprocessedid="ncmon">Subscribe</button>
+                            </div>
+                            <span class="subheading">Get digital marketing updates in your mailbox</span>
+                        </form>
+                    </div>
+                </div>
+                <div class="row mt-5 pt-4 border-top text-center">
+                    <div class="col-md-6 col-lg-12 mb-md-0 mb-4-5">
+                        <p class="copyright mb-5">
+                            Copyright ©
+                            <script>document.write(new Date().getFullYear());</script> All rights reserved.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+    </section>
+
+
+    <script>
+        function incrementNumber(targetId, targetNumber, speed) {
+            const targetElement = document.getElementById(targetId);
+            let currentNumber = 0;
+            const incrementSpeed = speed;
+
+            function increment() {
+                if (currentNumber < targetNumber) {
+                    currentNumber += incrementSpeed;
+                    targetElement.textContent = currentNumber;
+                    setTimeout(increment, 100); // Delay between increments
+                } else {
+                    targetElement.textContent = targetNumber;
+                }
+            }
+            increment();
+        }
+        incrementNumber('clientCount', 500, 25);
+        incrementNumber('marketCount', 50, 2);
+        incrementNumber('partnerCount', 100, 5);
+        incrementNumber('projectCount', 1000, 50);
+    </script>
+</body>
+
+
+</html>
