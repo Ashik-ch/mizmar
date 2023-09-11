@@ -76,12 +76,11 @@
             <div class="collapse navbar-collapse " id="navbarNavDropdown">
                 <div class="col">
                     <ul class="navbar-nav justify-content-center ">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link " href="#">About</a>
-                        <a class="nav-link" href="#">Service</a>
-                        <a class="nav-link" href="#">Projects</a>
-                        <a class="nav-link" href="#">Gallery</a>
-                        <a class="nav-link" href="#">Contact Us</a>
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        <a class="nav-link " href="#about">About</a>
+                        <a class="nav-link" href="#service">Service</a>
+                        <a class="nav-link" href="#project">Projects</a>
+                        <a class="nav-link" href="#contact">Contact Us</a>
                     </ul>
                 </div>
                 <!-- <div class="col text-end">
@@ -92,7 +91,7 @@
     </nav>
 
     <!-- Carousel Start -->
-    <div class="container-fluid p-0 mb-5">
+    <div class="container-fluid p-0 mb-5" id="home">
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner" style="height:100vh" s>
                 <div class="carousel-item active">
@@ -150,7 +149,7 @@
 
     <!-- About Start -->
     <div class="container-fluid overflow-hidden my-5 px-lg-0">
-        <div class="container about px-lg-0">
+        <div class="container about px-lg-0" id="about">
             <div class="row g-0 mx-lg-0">
                 <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
                     <div class="position-relative h-100">
@@ -189,7 +188,7 @@
     <!-- About End -->
 
     <!-- Service -->
-    <section class="about-service ">
+    <section class="about-service " id="service">
         <div class="section-bg  pt-5"></div>
         <section class="section-sevice ">
             <div class="section-title text-center">
@@ -305,7 +304,7 @@
 
     <!-- Key Projects -->
     <hr>
-    <section class="section4 p-5">
+    <section class="section4 p-5" id="project">
 
         <div class="d-flex text-start  justify-content-around flex-wrap gap-4">
             <div style="max-width: 540px;">
@@ -590,7 +589,7 @@
             </div>
         </section> -->
 
-        <section class="mt-5">
+        <section class="mt-5" id="contact">
             <footer class="bg-danger text-light">
                 <div class="container pt-5">
                     <div class="col-md-12">
@@ -607,21 +606,24 @@
                                 <ul class="list-unstyled">
 
                                     <li>
-                                        <div href="#" class=" text-decoration-0 d-block">
+                                        <a href="#home" class="text-decoration-none text-light  cursor-pointer">
                                             <i class="bi bi-arrow-right-short"></i>Home
-                                        </div>
+                                        </a>
                                     </li>
                                     <li>
-                                        <div href="#" class="d-block"> <i class="bi bi-arrow-right-short"></i>About
-                                        </div>
+                                        <a href="#about" class="text-decoration-none text-light  cursor-pointer"> <i
+                                                class="bi bi-arrow-right-short"></i>About
+                                        </a>
                                     </li>
                                     <li>
-                                        <div href="#" class="d-block"> <i class="bi bi-arrow-right-short"></i>Service
-                                        </div>
+                                        <a href="#service" class="text-decoration-none text-light  cursor-pointer"> <i
+                                                class="bi bi-arrow-right-short"></i>Service
+                                        </a>
                                     </li>
                                     <li>
-                                        <div href="#" class="d-block"> <i class="bi bi-arrow-right-short"></i>Projects
-                                        </div>
+                                        <a href="#project" class="text-decoration-none text-light  cursor-pointer"> <i
+                                                class="bi bi-arrow-right-short"></i>Projects
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
