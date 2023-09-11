@@ -4,30 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SAC</title>
+    <link rel="icon" href="/assets/android-chrome-192x192.png" type="image/x-icon">
+    <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
-
+    <!-- Font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/brands.min.css"
         integrity="sha512-W/zrbCncQnky/EzL+/AYwTtosvrM+YG/V6piQLSe2HuKS6cmbw89kjYkp3tWFn1dkWV7L1ruvJyKbLz73Vlgfg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap">
-
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Red+Hat+Display:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Style -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
     <!-- header -->
-    <header class="header">
+    <!-- <header class="header">
         <img src=" ./assets/sac.jpg" alt="" class="img" style="width: 140PX;">
-        <div class="address flex-wrap  d-none d-sm-flex">
+        <div class="address flex-wrap d-none d-sm-flex">
             <div class="d-flex align-items-center ">
                 <i class="fa-solid fa-location-dot fa-2xl me-3 text-secondary"></i>
                 <div>
@@ -49,14 +56,47 @@
                 </div>
             </div>
         </div>
+    </header> -->
 
 
+    <header class="header w-100">
+        <div class="ms-5 p-2 img-pos">
+            <img src=" ./assets/sac.jpg" alt="" class="img ">
+
+        </div>
+        <div class="d-flex justify-content-evenly header-shape  ms-auto flex-wrap ">
+            <!-- <div class="d-flex "> -->
+            <div class="d-flex align-items-center ">
+                <i class="fa-solid fa-location-dot fa-xl me-3 text-light d-none d-md-inline"></i>
+                <i class="fa-solid fa-location-dot fa-lg me-3 text-light d-md-none"></i>
+
+
+                <div class="text-light">
+                    <b>Abu Dhabi</b><br>
+                    <span class="text-light">9th Street, M-15, UAE</span>
+                </div>
+            </div>
+            <div class="d-flex align-items-center">
+                <i class="fa-solid fa-envelope fa-xl me-3 text-light  d-none d-md-inline"></i>
+                <i class="fa-solid fa-envelope fa-lg me-3 text-light d-md-none"></i>
+                <div class="text-light">
+                    <b>info@superarc.net</b><br>
+                    <span class="text-light ">www.superarc.net</span>
+                </div>
+            </div>
+            <div class="d-flex align-items-center">
+                <i class="fa-solid fa-phone-volume fa-xl me-3 text-light d-none d-md-inline"></i>
+                <i class="fa-solid fa-phone-volume fa-lg me-3 text-light d-md-none"></i>
+                <div class="text-light"> <b>info@superarc.net</b><br>
+                    <span class="text-light ">+971 547 202014</span>
+                </div>
+                <!-- </div> -->
+            </div>
+        </div>
     </header>
-
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container">
-
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -67,191 +107,272 @@
 
             <div class="collapse navbar-collapse " id="navbarNavDropdown">
                 <div class="col">
-                    <ul class="navbar-nav justify-content-between ">
+                    <ul class="navbar-nav justify-content-center ">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                         <a class="nav-link " href="#">About</a>
                         <a class="nav-link" href="#">Service</a>
                         <a class="nav-link" href="#">Projects</a>
                         <a class="nav-link" href="#">Gallery</a>
-                        <a class="nav-link" href="#">Career</a>
                         <a class="nav-link" href="#">Contact Us</a>
                     </ul>
                 </div>
-                <div class="col text-end">
+                <!-- <div class="col text-end">
                     <i class="bi bi-search d-none d-lg-inline"></i>
-                </div>
+                </div> -->
             </div>
         </div>
     </nav>
 
-    <!-- Slider -->
-    <div id="hero-carousel" class="carousel slide carousel-fade  p-0" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active c-item">
-                <img src="./assets/homeA_page-0001.jpg" class="d-block w-100 c-img" alt="Slide 1">
-                <div class="carousel-caption top-0 mt-4">
-                    <h1>First slide label</h1>
-                    <h1 class="display-1 fw-bolder text-capitalize">SAC</h1>
-                </div>
-            </div>
-            <div class="carousel-item c-item">
-                <img src="./assets/homeC_page-0001.jpg" class="d-block w-100 c-img" alt="Slide 2">
-                <div class="carousel-caption top-0 mt-4">
-                    <h1>Second slide label</h1>
-                    <p class="display-1 fw-bolder text-capitalize">SAC</p>
 
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5">
+        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner" style="height:100vh" s>
+                <div class="carousel-item active">
+                    <img class="w-100" src="assets/homeC_page-0001.jpg" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-7 pt-5">
+                                    <h1 class="display-4 mb-4 animated slideInDown">Super Arc Consultant
+                                        (SAC)</h1>
+                                    <p class="fs-5  mb-4 pb-2 mx-sm-5 animated slideInDown">For the Quality Products
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, neque.
+                                    </p>
+                                    <a href=""
+                                        class="custom-btn py-3 my-5 mb-5 px-5 animated slideInDown border-0">Explore
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="assets/homeA_page-0001.jpg" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-7 pt-5">
+                                    <h1 class="display-4  mb-4 animated slideInDown">Super Arc Consultant
+                                        (SAC)</h1>
+                                    <p class="fs-5  mb-4 pb-2 mx-sm-5 animated slideInDown">Life time Guarantee
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, neque.</p>
+                                    <a href="" class="custom-btn mb-5 py-3 px-5 animated slideInDown border-0">Explore
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="carousel-item c-item">
-                <img src="./assets/homeA_page-0001.jpg" class="d-block w-100 c-img" alt="Slide 3">
-                <div class="carousel-caption top-0 mt-4">
-                    <h1>Third slide label</h1>
-                    <p class="display-1 fw-bolder text-capitalize">SAC</p>
-                </div>
-            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
     </div>
+    <!-- Carousel End -->
 
 
-    <section class="section2  py-5">
-        <div class=" align  ">
-            <h6 class="title3 mt-5 ">ABOUT PROPOSAL </h6>
 
-            <h5 class=" mt-1 w-75 text-center text-secondary">
-                <div class="fs-1 fw-bold text-danger"> Arc Consultant (SAC) </div>Is a
-                multi-disciplinary design and engineering consultancy firm providing services of all types of
-                architectural, Structural, Infrastructural and building assessment projects with a portfolio record
-                of more than 130 projects worked with our big clients like Musanada, Etisalat,
-                Department of transport, du, Al Habtoor, The First Group, Atkins and many more.
-            </h5>
+    <!-- About Start -->
+    <div class="container-fluid overflow-hidden my-5 px-lg-0">
+        <div class="container about px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="assets/newsb.jpg"
+                            style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="p-lg-5 pe-lg-0">
+                        <div class="section-title text-start">
+                            <h4 class="display-5 mb-4 fw-bold">ABOUT PROPOSAL</h4>
+                        </div>
+                        <!-- <p class="mb-4 pb-2">Our aim to provide the finest range of charcoal and firewood creates the
+                            best experiences for our customers, be it for wood fired pizza stoves, tandoori stoves,
+                            charcoal steamboats, grill, roast or even BBQ. <br><br>
+                            For over a decade and counting, we are committed to providing only the finest quality of
+                            charcoal and firewood to the UAE market.</p> -->
+
+                        <h5 class=" mt-1 text-dark index">
+                            <div class="fs-2 fw-bold text-danger my-2 "> Super Arc Consultant (SAC) </div>
+                            <p class="mb-4 pb-2 ">
+                                Super Arc Consultant (SAC) is a multi-disciplinary design and engineering consultancy
+                                firm providing services of all types of <span class="title1"> architectural,
+                                    Structural,Infrastructural
+                                    and building assessment projects.</p>
+                            </span>
+                        </h5>
+
+
+                        <a href="about.html" class="custom-btn border-1 py-3 px-5">Read More</a>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
+    <!-- About End -->
 
-        <div class="text-center">
-            <div class="d-flex justify-content-center m-5 gap-5 px-4 flex-wrap">
-                <div class="p-2 border border-2 custom-card p-5">
-                    <img src="https://cdn.iconscout.com/icon/free/png-256/free-liebherr-jcb-2596646-2170508.png"
-                        style="opacity:.7;" class="card-img-top w-50 " alt="...">
+    <section class="about-service ">
+        <div class="section-bg  pt-5"></div>
+        <section class="section-sevice ">
+            <div class="section-title text-center">
+                <h4 class="display-5 mb-4 fw-bold text-white">OUR SERVICE</h4>
+            </div>
+
+            <div class="d-flex justify-content-center m-5 gap-5 px-4 flex-wrap text-center">
+                <div class=" border border-2 custom-card ">
+                    <i class="fa-solid fa-gears "></i>
                     <div class="card-body  mt-4">
-                        <h5 class="fw-bold">ARCHITECTURAL ENGINEERING SERVICES</h5>
-                        <div class="text-start  mt-4">
-                            <li type="square"> Palaces and luxury villas </li>
-                            <li type="square">Residential compounds</li>
-                            <li type="square"> Medium & high rise residential
-                            </li>
-                            <li type="square">Industrial projects </li>
-                            <li type="square">Educational projects </li>
+                        <h5 class="fw-bold card-title">Consulting</h5>
+                        <div class=" mt-4">
+                            Our geotechnical engineering consultancy services include site investigation foundation
+                            design, and soil stabilization. We offer innovative solutions for challenging soil
+                            conditions.
                         </div>
                     </div>
                 </div>
-
-                <div class="p-2 border border-2 custom-card p-5">
-                    <img src="https://cdn.iconscout.com/icon/free/png-256/free-liebherr-jcb-2596646-2170508.png"
-                        style="opacity:.7;" class="card-img-top w-50  " alt="...">
+                <div class=" border border-2 custom-card">
+                    <i class="fa-solid fa-file-signature"></i>
                     <div class="card-body  mt-4">
-                        <h5 class="fw-bold">ARCHITECTURAL ENGINEERING SERVICES</h5>
-                        <div class="text-start  mt-4">
-                            <li type="square"> Palaces and luxury villas </li>
-                            <li type="square">Residential compounds</li>
-                            <li type="square"> Medium & high rise residential
-                            </li>
-                            <li type="square">Industrial projects </li>
-                            <li type="square">Educational projects </li>
+                        <h5 class="fw-bold card-title card-title">Contracting</h5>
+                        <div class="mt-4">
+                            General Contracting, Design and Build, Civil and Infrastructure Works, Residential
+                            Construction, Commercial and Office Buildings,..
                         </div>
                     </div>
                 </div>
-                <div class="p-2 border border-2 custom-card p-5">
-                    <img src="https://cdn.iconscout.com/icon/free/png-256/free-liebherr-jcb-2596646-2170508.png"
-                        style="opacity:.7;" class="card-img-top w-50  " alt="...">
+                <div class=" border border-2 custom-card ">
+                    <i class="fa-solid fa-compass-drafting"></i>
                     <div class="card-body mt-4">
-                        <h5 class="fw-bold">ARCHITECTURAL ENGINEERING SERVICES</h5>
-                        <div class="text-start  mt-4">
-                            <li type="square"> Palaces and luxury villas </li>
-                            <li type="square">Residential compounds</li>
-                            <li type="square"> Medium & high rise residential
-                            </li>
-                            <li type="square">Industrial projects </li>
-                            <li type="square">Educational projects </li>
+                        <h5 class="fw-bold card-title">Interior Design & Fitout</h5>
+                        <div class=" mt-4">
+                            Interior Design, Fit-Out Works, Fit-Out Works, Fit-Out Works, Fit-Out Works, Project
+                            Management and More.
                         </div>
                     </div>
                 </div>
             </div>
-            <div>
-                <button class=" custom-btn">MORE ABOUT SERVICE </button>
+            <div class="text-center pb-5">
+                <a href="" class="custom-btn py-3 my-5 mb-5 px-5 animated slideInDown border-0">MORE ABOUT OUR
+                    SERVICE</a>
             </div>
-        </div>
+        </section>
     </section>
 
 
-    <section class="section3">
-        <div class="d-flex mt-5  bg-dark  text-light ">
-            <div class="col align-start p-0">
-                <img class=" bg-light number-image" src="./assets/homeF_page-0001.jpg" alt=""
-                    style="max-width: 100%; height: auto;">
-            </div>
-            <div class="col d-block mt-4  h-10 ms-5 ">
-                <h6>NUMBERS SPEAK</h6>
-                <h1 class=" fs-1 fw-bold text-danger">ABOUT PROPOSAL </h1>
 
-                <div class="d-flex flex-column m-5">
-                    <div class="d-flex ">
-                        <div class="border border-top-0 border-start-0 ">
-                            <div class="d-flex align-items-center pb-5 me-4">
-                                <i class="fa-solid fa-people-group fa-2xl" style="color: #dc3545;"></i>
-                                <div class="" style="margin: -25px 10px;">
-                                    <h1 id="clientCount">10 </h1> CLIENT
-                                </div>
-                            </div>
+    <!-- Features Start -->
+    <!-- <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-7 pt-lg-5 pb-3">
+                    <h6 class="text-secondary font-weight-semi-bold text-uppercase mb-3">Why Choose Us</h6>
+                    <h1 class="mb-4 section-title">25 Years Experience In Cleaning Industry</h1>
+                    <p class="mb-4">Dolores lorem lorem ipsum sit et ipsum. Sadip sea amet diam dolore sed et. Sit rebum
+                        labore sit sit ut vero no sit. Et elitr stet dolor sed sit et sed ipsum et kasd ut. Erat duo eos
+                        et erat sed diam duo</p>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <h1 class="text-secondary mb-2" data-toggle="counter-up">225</h1>
+                            <h6 class="font-weight-semi-bold mb-sm-4">Our Cleaners</h6>
                         </div>
-                        <div class="">
-                            <div class="d-flex align-items-center ps-4">
-                                <i class="fa-solid fa-people-group fa-2xl" style="color: #dc3545;"></i>
-                                <div class="" style="margin: -25px 10px;">
-                                    <h1 id="marketCount">10</h1> MARKET
-                                </div>
-                            </div>
+                        <div class="col-sm-4">
+                            <h1 class="text-secondary mb-2" data-toggle="counter-up">1050</h1>
+                            <h6 class="font-weight-semi-bold mb-sm-4">Happy Clients</h6>
+                        </div>
+                        <div class="col-sm-4">
+                            <h1 class="text-secondary mb-2" data-toggle="counter-up">2500</h1>
+                            <h6 class="font-weight-semi-bold mb-sm-4">Projects Done</h6>
                         </div>
                     </div>
-
-                    <div class="d-flex  ">
-                        <div class="d-flex align-items-center  mt-4 me-4">
-                            <i class="fa-solid fa-people-group fa-2xl" style="color: #dc3545;"></i>
-                            <div style="margin: -25px 10px;">
-                                <h1 id="partnerCount">10</h1> PARTNER
-                            </div>
-                        </div>
-
-                        <div class="border border-bottom-0 border-end-0 ">
-                            <div class="d-flex align-items-center pt-5  ps-4">
-                                <i class="fa-solid fa-people-group fa-2xl" style="color: #dc3545;"></i>
-                                <div style="margin: -25px 10px;">
-                                    <h1 id="projectCount">10</h1> PROJECT
-                                </div>
-                            </div>
-                        </div>
+                </div>
+                <div class="col-lg-5" style="min-height: 400px;">
+                    <div class="position-relative h-100 rounded overflow-hidden">
+                        <img class="position-absolute w-100 h-100" src="assets/newsa.jpg" style="object-fit: cover;">
                     </div>
                 </div>
             </div>
         </div>
-        <div class="text-center m-4">
-            <button class="custom-btn">Learn More About Us </button>
-        </div>
+    </div> -->
+    <!-- Features End -->
+
+    <section class="section-growth mt-5">
+        <div class="container">
+
+            <div class="row text-light ">
+                <div class="col-lg-6" style="min-height: 400px;">
+                    <div class="position-relative h-100 overflow-hidden">
+                        <img class="position-absolute w-100 h-100" src="assets/newsa.jpg" style="object-fit: cover;">
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-sm-12  bg-dark pt-4" style="position: relative;">
+                    <h6>NUMBERS SPEAK</h6>
+                    <h1 class=" fs-1 fw-bold ">SAC's Growth</h1>
+                    <div class="outer-div bg-dark">
+
+                        <div class="main-box d-flex">
+                            <div class="small-box small-box-1">
+                                <div class="d-flex align-items-center">
+                                    <i class="fa-solid fa-people-group fa-2xl"></i>
+                                    <div class="text">
+                                        <h1> <span id="projectCount"> 1</span> +</h1>
+                                        PROJECTS
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="small-box">
+                                <div class="d-flex align-items-center">
+                                    <i class="fa-solid fa-people-group fa-2xl"></i>
+                                    <div class="text">
+                                        <h1><span id="clientCount">1 </span>+</h1> HAPPY CLIENTS
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-box d-flex">
+                            <div class="small-box small-box-bottom small-box-1">
+                                <div class="d-flex align-items-center">
+                                    <i class="fa-solid fa-people-group fa-2xl"></i>
+                                    <div class="text">
+
+                                        <h1><span id="awardCount">1</span>+</h1> AWARDS
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="small-box small-box-bottom">
+                                <div class="d-flex align-items-center ">
+                                    <i class="fa-solid fa-people-group fa-2xl"></i>
+                                    <div class="text">
+                                        <span>
+                                            <h1> <span id="teamCount"> 1</span> +</h1>
+                                        </span> TEAM MEMBERS
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="text-center m-4">
+                <button class=" custom-btn py-3 px-5">Learn More About Us </button>
+            </div>
     </section>
+
 
     <section class="section4 p-5">
+
         <div class="d-flex text-start  justify-content-around flex-wrap gap-4">
             <div style="max-width: 540px;">
                 <h6 class="fw-bold">KEY PROJECTS</h6>
@@ -284,8 +405,7 @@
                     </div>
                 </div>
             </div>
-
-
+            <div class="section-bg"></div>
             <div class="card mb-3 " style="max-width: 540px ;">
                 <div class="row g-0">
                     <div class="col-md-12 ">
@@ -324,39 +444,324 @@
                 </div>
             </div>
         </div>
-        <div class="text-center">
-            <button class="custom-btn">More About Projects</button>
+
+
+        <div class="text-center mb-4">
+            <button class="btn custom-btn px-5 py-3 border-0">MORE ABOUT OUR PROJECTS</button>
         </div>
     </section>
 
-    <section class="mt-4">
-        <div class="text-center text-secondary">
-            <h6 class="text-bold">OUR ESTEEMED CLIENTS</h6>
+
+
+    <section class="testimonial-section col mb-5 position-relative">
+        <div class="container text-center">
+
+            <h6 class="title3 ">TESTIMONIAL</h6>
+            <h2 class="h2 ">What our customers say </h2>
+
+            <div class="testimonial">
+                <div id="carouselExampleCaptions" class="carousel slide innerbody" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active carousel-radio " aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2" class="carousel-radio "></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3" class="carousel-radio "></button>
+                    </div>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="testimonial-body">
+                                <h5 class="describe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+                                    maiores suscipit numquam
+                                    veritatis quo, animi aliquam illo beatae, labore voluptatem minus nesciunt
+                                    velit, recusandae neque dignissimos eaque sint cupiditate? Alias?</h5>
+
+                                <div class="d-flex justify-content-center mt-4">
+                                    <img src="https://s3.amazonaws.com/37assets/svn/1024-original.1e9af38097008ef9573f03b03ef6f363219532f9.jpg"
+                                        class="rounded-3" alt="" width="50px" height="50px">
+                                    <div class="my-auto ms-3 text-start">
+
+                                        <h5 class="my-0">John</h5>
+                                        <h6>John@gmail.com</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="carousel-item">
+                            <div class="testimonial-body">
+                                <h5 class="describe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+                                    maiores suscipit numquam
+                                    veritatis quo, animi aliquam illo beatae, labore voluptatem minus nesciunt
+                                    velit, recusandae neque dignissimos eaque sint cupiditate? Alias?</h5>
+
+                                <div class="d-flex justify-content-center mt-4">
+                                    <img src="https://s3.amazonaws.com/37assets/svn/1024-original.1e9af38097008ef9573f03b03ef6f363219532f9.jpg"
+                                        class="rounded-3" alt="" width="50px" height="50px">
+                                    <div class="my-auto ms-3">
+
+                                        <h5 class="my-0 text-start">James </h5>
+                                        <h6>James@gmail.com</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="testimonial-body">
+                                <h5 class="describe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+                                    maiores suscipit
+                                    numquam
+                                    veritatis quo, animi aliquam illo beatae, labore voluptatem minus nesciunt
+                                    velit,
+                                    recusandae
+                                    neque dignissimos eaque sint cupiditate? Alias?</h5>
+
+                                <div class="d-flex justify-content-center mt-4">
+                                    <img src="https://s3.amazonaws.com/37assets/svn/1024-original.1e9af38097008ef9573f03b03ef6f363219532f9.jpg"
+                                        class="rounded-3" alt="" width="50px" height="50px">
+                                    <div class="my-auto ms-3 text-start">
+
+                                        <h5 class="my-0">Rahul</h5>
+                                        <h6>Rahul@gmail.com</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <!-- <div class="row ">
+        <div class="owl-carousel team-carousel position-relative "
+            style="display: flex; justify-content: center;  flex-wrap: wrap; gap: 5px;">
+
+            <div class="team d-flex flex-column text-center rounded overflow-hidden">
+                <div class="position-relative">
+                    <div class="team-img">
+                        <img class="img-fluid w-100" src="assets/newsa.jpg" alt="">
+                    </div>
+                    <div class="latest-news d-flex flex-column align-items-center justify-content-center bg-light">
+                        <h3 style=" transform: rotate(270deg);
+                                  white-space: nowrap;">LATEST NEWS</h3>
+                    </div>
+                </div>
+                <div class="d-flex flex-column bg-light text-center py-4 " style="  width: 300px;">
+                    <h5 class="card-title ">News title</h5>
+                    <p class="card-text ">Some quick example text to build on the card title and make up the bulk of
+                        the card's content.</p>
+                </div>
+            </div>
+
+            <div class="team d-flex flex-column text-center rounded overflow-hidden">
+                <div class="position-relative">
+                    <div class="team-img">
+                        <img class="img-fluid w-100" src="assets/newsa.jpg" alt="">
+                    </div>
+                    <div class="latest-news d-flex flex-column align-items-center justify-content-center bg-light">
+                        <h3 style=" transform: rotate(270deg);
+                                  white-space: nowrap;">LATEST NEWS</h3>
+                    </div>
+                </div>
+                <div class="d-flex flex-column bg-light text-center py-4" style="  width: 300px;">
+                    <h5 class="card-title">News title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the card's content.</p>
+                </div>
+            </div>
+
+        </div>
+    </div> -->
+
+
+
+
+    <section class="news p-5 ">
+        <div class="row gap-2 ">
+
+            <div class="card border-0 ">
+                <p class="p ps-1"> INSIGHT</p>
+                <h1> Latest Article and News </h1>
+                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
+                    mattis, pulvinar dapibus leo. </h4>
+                <button class="custom-btn ">More Article</button>
+            </div>
+            <!--         
+            <div class="owl-carousel team-carousel position-relative "
+                style="display: flex; justify-content: center;  flex-wrap: wrap; gap: 5px;"> -->
+
+            <!-- <div class="team d-flex flex-column text-center rounded overflow-hidden">
+                <div class="position-relative">
+                    <div class="team-img">
+                        <img class="img-fluid w-100" src="assets/newsa.jpg" alt="">
+                    </div>
+                    <div class="latest-news d-flex flex-column align-items-center justify-content-center bg-light">
+                        <h3 style=" transform: rotate(270deg);
+                                              white-space: nowrap;">LATEST NEWS</h3>
+                    </div>
+                </div>
+                <div class="d-flex flex-column bg-light text-center py-4 " style="  width: 300px;">
+                    <h5 class="card-title ">News title</h5>
+                    <p class="card-text ">Some quick example text to build on the card title and make up the
+                        bulk of
+                        the card's content.</p>
+                </div>
+            </div>
+
+            <div class="team d-flex flex-column text-center rounded overflow-hidden">
+                <div class="position-relative">
+                    <div class="team-img">
+                        <img class="img-fluid w-100" src="assets/newsa.jpg" alt="">
+                    </div>
+                    <div class="latest-news d-flex flex-column align-items-center justify-content-center bg-light">
+                        <h3 style=" transform: rotate(270deg);
+                                              white-space: nowrap;">LATEST NEWS</h3>
+                    </div>
+                </div>
+                <div class="d-flex flex-column bg-light text-center py-4" style="  width: 300px;">
+                    <h5 class="card-title">News title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                        of
+                        the card's content.</p>
+                </div>
+            </div> -->
+
+
+
+            <div class="card">
+                <img src="/assets/b.jpg" class="card-img" alt="...">
+                <div class="card-body">
+                    <li class="list-group-item my-3 text-danger">Date</li>
+                    <h5 class="card-title">News title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the card's content.</p>
+                </div>
+            </div>
+
+            <div class="card ">
+                <img src="/assets/d.jpg" class="card-img  " alt="...">
+                <div class="card-body">
+                    <li class="list-group-item my-3 text-danger">Date</li>
+                    <h5 class="card-title">News title</h5>
+                    <p class="card-text pb-2">Some quick example text to build on the card title and make up the
+                        bulk of
+                        the card's content.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- </div> -->
+    </section>
+
+
+    <!-- <section class="mt-5 client-section">
+        <div class="text-center text-secondary mt-5">
+            <h6 class="title3">OUR ESTEEMED CLIENTS</h6>
+            <h1 class="w-100">We are Proud to Work With</h1>
+        </div>
+        <div id="clientsCarousel" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators rounded-indicators">
+                <li data-bs-target="#clientsCarousel" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#clientsCarousel" data-bs-slide-to="1"></li>
+                <li data-bs-target="#clientsCarousel" data-bs-slide-to="2"></li>
+            </ol>
+            <style>
+                .rounded-indicators {
+                    list-style: none;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: -2rem !important;
+                }
+
+                .rounded-indicators li {
+                    width: 10px !important;
+                    height: 10px !important;
+                    border-radius: 50%;
+                    background-color: #ccc;
+                    margin: 0 5px;
+                    cursor: pointer;
+                    transition: background-color 0.3s;
+                }
+
+                .rounded-indicators li.active {
+                    background-color: #fc006d;
+                }
+            </style>
+
+            <div class="carousel-inner d-grid justify-content-center">
+                <div class="carousel-item active ">
+                    <div class="clients-container">
+                        <img src="/assets/client1.png" alt="Client Logo 1" class=" img border   p-4">
+                        <img src="/assets/client2.png" alt="Client Logo 2" class="img border  p-4">
+                        <img src="/assets/client3.png" alt="Client Logo 2" class="img border  p-4">
+                        <img src="/assets/client8.png" alt="Client Logo 2" class="img border  p-4">
+                        <img src="/assets/client9.jpg" alt="Client Logo 2" class="img border  p-4">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="clients-container">
+                        <img src="/assets/client4.png" alt="Client Logo 3" class="img border  p-4">
+                        <img src="/assets/client11.png" alt="Client Logo 4" class="img border  p-4">
+                        <img src="/assets/client12.jpg" alt="Client Logo 4" class="img border  p-4">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="clients-container">
+                        <img src="/assets/client6.jpg" alt="Client Logo 5" class="img border  p-4">
+                        <img src="/assets/client7.png" alt="Client Logo 6" class="img border  p-4">
+                        <img src="/assets/client13.webp" alt="Client Logo 6" class="img border  p-4">
+                        <img src="/assets/client14.jpeg" alt="Client Logo 6" class="img border  p-4">
+                    </div>
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#clientsCarousel" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#clientsCarousel" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+    </section> -->
+
+
+
+    <section class="mt-5">
+        <div class="text-center text-secondary mt-5">
+            <h6 class="title3 ">OUR ESTEEMED CLIENTS</h6>
             <h1 class="w-100">We are Proud to Work With</h1>
         </div>
         <div class="clients-container">
             <div class="clients-image">
-                <img src="https://seeklogo.com/images/A/abu-dhabi-city-municipality-logo-F9BA57D321-seeklogo.com.png"
-                    class="border p-4" alt="logo">
-                <img src="https://seeklogo.com/images/A/abu-dhabi-city-municipality-logo-F9BA57D321-seeklogo.com.png"
-                    class="border p-4" alt="logo">
-                <img src="https://seeklogo.com/images/A/abu-dhabi-city-municipality-logo-F9BA57D321-seeklogo.com.png"
-                    class="border p-4" alt="logo">
-                <img src="https://seeklogo.com/images/A/abu-dhabi-city-municipality-logo-F9BA57D321-seeklogo.com.png"
-                    class="border p-4" alt="logo">
-
-                <img src="https://seeklogo.com/images/A/abu-dhabi-city-municipality-logo-F9BA57D321-seeklogo.com.png"
-                    class="border p-4" alt="logo">
-                <img src="https://seeklogo.com/images/A/abu-dhabi-city-municipality-logo-F9BA57D321-seeklogo.com.png"
-                    class="border p-4" alt="logo">
-                <img src="https://seeklogo.com/images/A/abu-dhabi-city-municipality-logo-F9BA57D321-seeklogo.com.png"
-                    class="border p-4" alt="logo">
-                <img src="https://seeklogo.com/images/A/abu-dhabi-city-municipality-logo-F9BA57D321-seeklogo.com.png"
-                    class="border p-4" alt="logo">
-                <img src="https://seeklogo.com/images/A/abu-dhabi-city-municipality-logo-F9BA57D321-seeklogo.com.png"
-                    class="border p-4" alt="logo">
-                <img src="https://seeklogo.com/images/A/abu-dhabi-city-municipality-logo-F9BA57D321-seeklogo.com.png"
-                    class="border p-4" alt="logo">
+                <img src="/assets/client1.png" class="border p-4" alt="logo">
+                <img src="/assets/client2.png" class="border p-4" alt="logo">
+                <img src="/assets/client3.png" class="border p-4" alt="logo">
+                <img src="/assets/client8.png" class="border p-4" alt="logo">
+                <img src="/assets/client4.png" class="border p-4" alt="logo">
+                <img src="/assets/client12.jpg" class="border p-4" alt="logo">
+                <img src="/assets/client6.jpg" class="border p-4" alt="logo">
+                <img src="/assets/client7.png" class="border p-4" alt="logo">
+                <img src="/assets/client13.webp" class="border p-4" alt="logo">
+                <img src="/assets/client14.jpeg" class="border p-4" alt="logo">
             </div>
         </div>
     </section>
@@ -387,7 +792,8 @@
                                         </div>
                                     </li>
                                     <li>
-                                        <div href="#" class="d-block"> <i class="bi bi-arrow-right-short"></i> Contact
+                                        <div href="#" class="d-block"> <i class="bi bi-arrow-right-short"></i>
+                                            Contact
                                         </div>
                                     </li>
                                     <li>
@@ -448,10 +854,10 @@
             }
             increment();
         }
-        incrementNumber('clientCount', 500, 25);
-        incrementNumber('marketCount', 50, 2);
-        incrementNumber('partnerCount', 100, 5);
-        incrementNumber('projectCount', 1000, 50);
+        incrementNumber('projectCount', 150, 6);
+        incrementNumber('clientCount', 130, 5);
+        incrementNumber('awardCount', 25, 1);
+        incrementNumber('teamCount', 40, 2);
     </script>
 </body>
 
