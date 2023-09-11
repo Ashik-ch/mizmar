@@ -118,6 +118,7 @@ li a {
 }
 
 /* carousel */
+
 .carousel {
   .carousel-caption {
     top: 0;
@@ -128,10 +129,10 @@ li a {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: rgba(1, 10, 53, 0.8);
+    background: rgba(0, 1, 8, 0.5);
     z-index: 1;
     .display-4 {
-      color: var(--color1);
+      color: var(--color2);
       font-weight: 700;
     }
   }
@@ -365,7 +366,6 @@ li a {
   .h2 {
     color: var(--color1);
     font-weight: 700;
-    margin: 2rem;
   }
   .testimonial {
     display: flex;
@@ -386,7 +386,7 @@ li a {
       background-color: var(--color2);
     }
     .describe {
-      font-size: 16px;
+      font-size: 18px;
     }
 
     .carousel-indicators {
@@ -523,4 +523,28 @@ li a {
   width: 75px;
   height: 75px;
   border-radius: 75px;
+}
+
+.clients .clients-img {
+  width: 18rem;
+  height: 8rem;
+  object-fit: cover;
+  padding: 10px;
+  /* border: 1px solid gray; */
+}
+
+.clients .carousel-dark .carousel-control-next-icon,
+.carousel-dark .carousel-control-prev-icon {
+  filter: invert(0) grayscale(100) !important;
+}
+
+.clients .carousel-dark .carousel-control-prev-icon,
+.carousel-dark .carousel-control-next-icon {
+  filter: invert(0) grayscale(100) !important;
+}
+
+.proud-clients {
+  text-align: center; /* Center-align text horizontally */
+  display: inline-block; /* Make the container shrink to fit its content */
+  padding: 0;
 }

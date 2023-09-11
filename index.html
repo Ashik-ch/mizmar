@@ -5,13 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SAC</title>
-    <link rel="icon" href="/assets/android-chrome-192x192.png" type="image/x-icon">
+    <link rel="icon" href="assets/android-chrome-192x192.png" type="image/x-icon">
+
     <!-- bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="bootstrap/bootstrap.css">
+    <script src="bootstrap/bootstrap.js"></script>
     <!-- Font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
@@ -32,45 +30,14 @@
 <body>
 
     <!-- header -->
-    <!-- <header class="header">
-        <img src=" ./assets/sac.jpg" alt="" class="img" style="width: 140PX;">
-        <div class="address flex-wrap d-none d-sm-flex">
-            <div class="d-flex align-items-center ">
-                <i class="fa-solid fa-location-dot fa-2xl me-3 text-secondary"></i>
-                <div>
-                    <b>Abu Dhabi</b><br>
-                    <span class="subtile-2">9th Street, M-15, , UAE</span>
-                </div>
-            </div>
-            <div class="d-flex align-items-center">
-                <i class="fa-solid fa-envelope fa-2xl me-3 text-secondary"></i>
-                <div>
-                    <b>info@superarc.net</b><br>
-                    <span class="subtile-2 ">www.superarc.net</span>
-                </div>
-            </div>
-            <div class="d-flex align-items-center">
-                <i class="fa-solid fa-phone-volume fa-2xl me-3 text-secondary"></i>
-                <div> <b>info@superarc.net</b><br>
-                    <span class="subtile-2 ">+971 547 202014</span>
-                </div>
-            </div>
-        </div>
-    </header> -->
-
-
     <header class="header w-100">
         <div class="ms-5 p-2 img-pos">
-            <img src=" ./assets/sac.jpg" alt="" class="img ">
-
+            <img src=" assets/sac.jpg" alt="" class="img ">
         </div>
         <div class="d-flex justify-content-evenly header-shape  ms-auto flex-wrap ">
-            <!-- <div class="d-flex "> -->
             <div class="d-flex align-items-center ">
                 <i class="fa-solid fa-location-dot fa-xl me-3 text-light d-none d-md-inline"></i>
                 <i class="fa-solid fa-location-dot fa-lg me-3 text-light d-md-none"></i>
-
-
                 <div class="text-light">
                     <b>Abu Dhabi</b><br>
                     <span class="text-light">9th Street, M-15, UAE</span>
@@ -90,10 +57,11 @@
                 <div class="text-light"> <b>info@superarc.net</b><br>
                     <span class="text-light ">+971 547 202014</span>
                 </div>
-                <!-- </div> -->
+
             </div>
         </div>
     </header>
+
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container">
@@ -123,8 +91,6 @@
         </div>
     </nav>
 
-
-
     <!-- Carousel Start -->
     <div class="container-fluid p-0 mb-5">
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
@@ -135,9 +101,10 @@
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-7 pt-5">
-                                    <h1 class="display-4 mb-4 animated slideInDown">Super Arc Consultant
+                                    <h1 class="display-4 mb-4 animated slideInDown carousel-text">Super Arc Consultant
                                         (SAC)</h1>
-                                    <p class="fs-5  mb-4 pb-2 mx-sm-5 animated slideInDown">For the Quality Products
+                                    <p class="fs-5  mb-4 pb-2 mx-sm-5 animated slideInDown carousel-text">For the
+                                        Quality Products
                                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, neque.
                                     </p>
                                     <a href=""
@@ -154,9 +121,10 @@
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-7 pt-5">
-                                    <h1 class="display-4  mb-4 animated slideInDown">Super Arc Consultant
+                                    <h1 class="display-4  mb-4 animated slideInDown carousel-text">Super Arc Consultant
                                         (SAC)</h1>
-                                    <p class="fs-5  mb-4 pb-2 mx-sm-5 animated slideInDown">Life time Guarantee
+                                    <p class="fs-5  mb-4 pb-2 mx-sm-5 animated slideInDown carousel-text">Life time
+                                        Guarantee
                                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, neque.</p>
                                     <a href="" class="custom-btn mb-5 py-3 px-5 animated slideInDown border-0">Explore
                                         More</a>
@@ -202,7 +170,7 @@
                             charcoal and firewood to the UAE market.</p> -->
 
                         <h5 class=" mt-1 text-dark index">
-                            <div class="fs-2 fw-bold text-danger my-2 "> Super Arc Consultant (SAC) </div>
+                            <div class="fs-2 fw-bold  my-2 text-danger "> Super Arc Consultant (SAC) </div>
                             <p class="mb-4 pb-2 ">
                                 Super Arc Consultant (SAC) is a multi-disciplinary design and engineering consultancy
                                 firm providing services of all types of <span class="title1"> architectural,
@@ -220,6 +188,7 @@
     </div>
     <!-- About End -->
 
+    <!-- Service -->
     <section class="about-service ">
         <div class="section-bg  pt-5"></div>
         <section class="section-sevice ">
@@ -266,130 +235,95 @@
             </div>
         </section>
     </section>
+    <!-- Service  End-->
 
 
 
-    <!-- Features Start -->
-    <!-- <div class="container-fluid py-5">
-        <div class="container py-5">
-            <div class="row">
-                <div class="col-lg-7 pt-lg-5 pb-3">
-                    <h6 class="text-secondary font-weight-semi-bold text-uppercase mb-3">Why Choose Us</h6>
-                    <h1 class="mb-4 section-title">25 Years Experience In Cleaning Industry</h1>
-                    <p class="mb-4">Dolores lorem lorem ipsum sit et ipsum. Sadip sea amet diam dolore sed et. Sit rebum
-                        labore sit sit ut vero no sit. Et elitr stet dolor sed sit et sed ipsum et kasd ut. Erat duo eos
-                        et erat sed diam duo</p>
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <h1 class="text-secondary mb-2" data-toggle="counter-up">225</h1>
-                            <h6 class="font-weight-semi-bold mb-sm-4">Our Cleaners</h6>
+
+    <!-- Growth -->
+    <section class="section-growth py-5">
+        <div class="row">
+            <div class="col-lg-6 col-sm-12" style="min-height: 400px;">
+                <div class="position-relative h-100 ">
+                    <img class="position-absolute w-100 h-100" src="assets/newsa.jpg" style="object-fit: cover;">
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-sm-12 bg-dark p-4  text-light " style="position: relative;">
+                <h6>NUMBERS SPEAK</h6>
+                <h1 class=" fs-1 fw-bold ">SAC's Growth</h1>
+                <div class="outer-div bg-dark">
+
+                    <div class="main-box d-flex">
+                        <div class="small-box small-box-1">
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-people-group fa-2xl"></i>
+                                <div class="text">
+                                    <h1> <span id="projectCount"> 1</span> +</h1>
+                                    PROJECTS
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-sm-4">
-                            <h1 class="text-secondary mb-2" data-toggle="counter-up">1050</h1>
-                            <h6 class="font-weight-semi-bold mb-sm-4">Happy Clients</h6>
-                        </div>
-                        <div class="col-sm-4">
-                            <h1 class="text-secondary mb-2" data-toggle="counter-up">2500</h1>
-                            <h6 class="font-weight-semi-bold mb-sm-4">Projects Done</h6>
+                        <div class="small-box">
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-people-group fa-2xl"></i>
+                                <div class="text">
+                                    <h1><span id="clientCount">1 </span>+</h1> HAPPY CLIENTS
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-5" style="min-height: 400px;">
-                    <div class="position-relative h-100 rounded overflow-hidden">
-                        <img class="position-absolute w-100 h-100" src="assets/newsa.jpg" style="object-fit: cover;">
+                    <div class="main-box d-flex">
+                        <div class="small-box small-box-bottom small-box-1">
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-people-group fa-2xl"></i>
+                                <div class="text">
+
+                                    <h1><span id="awardCount">1</span>+</h1> AWARDS
+                                </div>
+                            </div>
+                        </div>
+                        <div class="small-box small-box-bottom">
+                            <div class="d-flex align-items-center ">
+                                <i class="fa-solid fa-people-group fa-2xl"></i>
+                                <div class="text">
+                                    <span>
+                                        <h1> <span id="teamCount"> 1</span> +</h1>
+                                    </span> TEAM MEMBERS
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div> -->
-    <!-- Features End -->
-
-    <section class="section-growth mt-5">
-        <div class="container">
-
-            <div class="row text-light ">
-                <div class="col-lg-6" style="min-height: 400px;">
-                    <div class="position-relative h-100 overflow-hidden">
-                        <img class="position-absolute w-100 h-100" src="assets/newsa.jpg" style="object-fit: cover;">
-                    </div>
-                </div>
-
-                <div class="col-lg-6 col-sm-12  bg-dark pt-4" style="position: relative;">
-                    <h6>NUMBERS SPEAK</h6>
-                    <h1 class=" fs-1 fw-bold ">SAC's Growth</h1>
-                    <div class="outer-div bg-dark">
-
-                        <div class="main-box d-flex">
-                            <div class="small-box small-box-1">
-                                <div class="d-flex align-items-center">
-                                    <i class="fa-solid fa-people-group fa-2xl"></i>
-                                    <div class="text">
-                                        <h1> <span id="projectCount"> 1</span> +</h1>
-                                        PROJECTS
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="small-box">
-                                <div class="d-flex align-items-center">
-                                    <i class="fa-solid fa-people-group fa-2xl"></i>
-                                    <div class="text">
-                                        <h1><span id="clientCount">1 </span>+</h1> HAPPY CLIENTS
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="main-box d-flex">
-                            <div class="small-box small-box-bottom small-box-1">
-                                <div class="d-flex align-items-center">
-                                    <i class="fa-solid fa-people-group fa-2xl"></i>
-                                    <div class="text">
-
-                                        <h1><span id="awardCount">1</span>+</h1> AWARDS
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="small-box small-box-bottom">
-                                <div class="d-flex align-items-center ">
-                                    <i class="fa-solid fa-people-group fa-2xl"></i>
-                                    <div class="text">
-                                        <span>
-                                            <h1> <span id="teamCount"> 1</span> +</h1>
-                                        </span> TEAM MEMBERS
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-
-                </div>
-            </div>
-            <div class="text-center m-4">
-                <button class=" custom-btn py-3 px-5">Learn More About Us </button>
-            </div>
+        <div class="text-center m-5">
+            <button class=" custom-btn py-3 px-5">Learn More About Us </button>
+        </div>
     </section>
+    <!-- Growth End -->
 
-
+    <!-- Key Projects -->
+    <hr>
     <section class="section4 p-5">
 
         <div class="d-flex text-start  justify-content-around flex-wrap gap-4">
             <div style="max-width: 540px;">
-                <h6 class="fw-bold">KEY PROJECTS</h6>
-                <h2 class="fw-bold text-danger"> 450+ PROJECT RECORD</h2>
+                <h6 class="fw-bold bg-danger text-light py-1">KEY PROJECTS</h6>
+                <h2 class="fw-bold "> 450+ PROJECT RECORD</h2>
+
+
                 <p class="text-secondary">AVENIR has been successful at delivering its innovative and cost-effective
                     solutions to its clients and partners, and has been tremendously careful at meeting the business
-                    requirements on time and has
-                    been commendable at it. This has only increased the credibility of the company in the industries it
-                    has been servicing and it strives to add value to all the projects it undertakes.
-                    At present, AVENIR is constantly striving to deliver the best in a plethora of diverse ongoing
-                    projects</p>
-
+                    requirements on time and has been commendable at it. This has only increased the credibility of the
+                    company in the industries it has been servicing and it strives to add value to all the projects it
+                    undertakes. At present, AVENIR is constantly striving to deliver the best in a plethora of diverse
+                    ongoing projects</p>
             </div>
 
             <div class="card mb-3" style="max-width: 540px;">
                 <div class="row g-0">
-                    <div class="col-lg">
+                    <div class="col-lg" style="max-height: 400px;">
                         <img src="https://static.propsearch.ae/dubai-locations/the-diamond-15832_xl.jpg"
                             class="img-fluid rounded-start" alt="..." style="height: 100%; object-fit: cover;">
                     </div>
@@ -408,7 +342,7 @@
             <div class="section-bg"></div>
             <div class="card mb-3 " style="max-width: 540px ;">
                 <div class="row g-0">
-                    <div class="col-md-12 ">
+                    <div class="col-md-12" style="max-height: 400px;">
                         <img src="https://www.timeoutabudhabi.com/cloud/timeoutabudhabi/2021/09/09/2I6Fus5B-Abu-Dhabi-Grand-Prix-2021-1.jpg"
                             class="img-fluid rounded-start  " style="height: 100%; object-fit: cover;" alt="...">
                     </div>
@@ -426,28 +360,28 @@
 
             <div class="card mb-3" style="max-width: 540px;">
                 <div class="row g-0">
-                    <div class="col-md-12">
-                        <img src="https://images.skyscrapercenter.com/building/_5794.jpg"
-                            class="img-fluid rounded-start " alt="..." style="    max-height: 361px;
+                    <div class="col-md-12" style="max-height: 400px;"></div>
+                    <img src="https://images.skyscrapercenter.com/building/_5794.jpg" class="img-fluid rounded-start "
+                        alt="..." style="    max-height: 361px;
                             width: 100%; object-fit: cover;">
-                    </div>
-                    <div class="col">
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold">The Ciel Dubai</h5>
-                            <p c lass="card-text">
-                                Track Modification for Yas marina circuit - Geotechnical Assessment. Design &
-                                Supervision of soil improvement works in relation to track located at YAS
-                                Marina Circuit, Abu Dhabi
-                            </p>
-                        </div>
+                </div>
+                <div class="col">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">The Ciel Dubai</h5>
+                        <p c lass="card-text">
+                            Track Modification for Yas marina circuit - Geotechnical Assessment. Design &
+                            Supervision of soil improvement works in relation to track located at YAS
+                            Marina Circuit, Abu Dhabi
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
+        </div>
 
 
         <div class="text-center mb-4">
-            <button class="btn custom-btn px-5 py-3 border-0">MORE ABOUT OUR PROJECTS</button>
+            <button class="custom-btn px-5 py-3 border-0">MORE ABOUT OUR PROJECTS</button>
         </div>
     </section>
 
@@ -456,8 +390,9 @@
     <section class="testimonial-section col mb-5 position-relative">
         <div class="container text-center">
 
-            <h6 class="title3 ">TESTIMONIAL</h6>
-            <h2 class="h2 ">What our customers say </h2>
+            <h4 class="  bg-danger d-inline-block p-1 text-light  my-3">TESTIMONIAL</h4>
+            <h2 class="fw-bold mb-4  "> What our customers say</h2>
+
 
             <div class="testimonial">
                 <div id="carouselExampleCaptions" class="carousel slide innerbody" data-bs-ride="carousel">
@@ -473,61 +408,48 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="testimonial-body">
-                                <h5 class="describe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-                                    maiores suscipit numquam
-                                    veritatis quo, animi aliquam illo beatae, labore voluptatem minus nesciunt
-                                    velit, recusandae neque dignissimos eaque sint cupiditate? Alias?</h5>
+                                <h5 class="describe">"SAC's expertise and specialized knowledge in Hydrological and
+                                    Hydraulic Modeling have been crucial to the project's success.</h5>
 
                                 <div class="d-flex justify-content-center mt-4">
-                                    <img src="https://s3.amazonaws.com/37assets/svn/1024-original.1e9af38097008ef9573f03b03ef6f363219532f9.jpg"
-                                        class="rounded-3" alt="" width="50px" height="50px">
+                                    <img src="assets/thanks1.jpeg" class="rounded-3" alt="" width="100px"
+                                        height="100px">
                                     <div class="my-auto ms-3 text-start">
-
-                                        <h5 class="my-0">John</h5>
-                                        <h6>John@gmail.com</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- <div class="carousel-item">
-                            <div class="testimonial-body">
-                                <h5 class="describe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-                                    maiores suscipit numquam
-                                    veritatis quo, animi aliquam illo beatae, labore voluptatem minus nesciunt
-                                    velit, recusandae neque dignissimos eaque sint cupiditate? Alias?</h5>
-
-                                <div class="d-flex justify-content-center mt-4">
-                                    <img src="https://s3.amazonaws.com/37assets/svn/1024-original.1e9af38097008ef9573f03b03ef6f363219532f9.jpg"
-                                        class="rounded-3" alt="" width="50px" height="50px">
-                                    <div class="my-auto ms-3">
-
-                                        <h5 class="my-0 text-start">James </h5>
-                                        <h6>James@gmail.com</h6>
+                                        <h5 class="my-0">Sherif Ezz</h5>
+                                        <h6>Project Manager </h6>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="testimonial-body">
-                                <h5 class="describe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-                                    maiores suscipit
-                                    numquam
-                                    veritatis quo, animi aliquam illo beatae, labore voluptatem minus nesciunt
-                                    velit,
-                                    recusandae
-                                    neque dignissimos eaque sint cupiditate? Alias?</h5>
-
-                                <div class="d-flex justify-content-center mt-4">
-                                    <img src="https://s3.amazonaws.com/37assets/svn/1024-original.1e9af38097008ef9573f03b03ef6f363219532f9.jpg"
-                                        class="rounded-3" alt="" width="50px" height="50px">
+                                <h5 class="describe">Since our cooperation started, we have become more robust with the
+                                    knowledge and support you have provided us. "</h5>
+                                <div class=" d-flex justify-content-center mt-4">
+                                    <img src="assets/thank2.png" class="rounded-3" alt="" width="100px" height="100px">
                                     <div class="my-auto ms-3 text-start">
-
-                                        <h5 class="my-0">Rahul</h5>
-                                        <h6>Rahul@gmail.com</h6>
+                                        <h5 class="my-0 ">Amr Al Bawab </h5>
+                                        <h6>Cheif CO </h6>
                                     </div>
                                 </div>
                             </div>
-                        </div> -->
+                        </div>
+                        <div class="carousel-item">
+                            <div class="testimonial-body">
+                                <h5 class="describe">We are writing this Letter to express our appreciation to work with
+                                    Super Arc Consultant on Track Modification project as one of our sub-consultants
+                                    particularly for the soil improvement works.</h5>
+
+                                <div class="d-flex justify-content-center mt-4">
+                                    <img src="assets/thank3.jpeg" class="rounded-3" alt="" width="100px" height="100px">
+                                    <div class="my-auto ms-3 text-start">
+
+                                        <h5 class="my-0">Roberto Elsisura</h5>
+                                        <h6>Project Manager </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
                         data-bs-slide="prev">
@@ -548,102 +470,16 @@
 
 
 
-    <!-- <div class="row ">
-        <div class="owl-carousel team-carousel position-relative "
-            style="display: flex; justify-content: center;  flex-wrap: wrap; gap: 5px;">
-
-            <div class="team d-flex flex-column text-center rounded overflow-hidden">
-                <div class="position-relative">
-                    <div class="team-img">
-                        <img class="img-fluid w-100" src="assets/newsa.jpg" alt="">
-                    </div>
-                    <div class="latest-news d-flex flex-column align-items-center justify-content-center bg-light">
-                        <h3 style=" transform: rotate(270deg);
-                                  white-space: nowrap;">LATEST NEWS</h3>
-                    </div>
-                </div>
-                <div class="d-flex flex-column bg-light text-center py-4 " style="  width: 300px;">
-                    <h5 class="card-title ">News title</h5>
-                    <p class="card-text ">Some quick example text to build on the card title and make up the bulk of
-                        the card's content.</p>
-                </div>
-            </div>
-
-            <div class="team d-flex flex-column text-center rounded overflow-hidden">
-                <div class="position-relative">
-                    <div class="team-img">
-                        <img class="img-fluid w-100" src="assets/newsa.jpg" alt="">
-                    </div>
-                    <div class="latest-news d-flex flex-column align-items-center justify-content-center bg-light">
-                        <h3 style=" transform: rotate(270deg);
-                                  white-space: nowrap;">LATEST NEWS</h3>
-                    </div>
-                </div>
-                <div class="d-flex flex-column bg-light text-center py-4" style="  width: 300px;">
-                    <h5 class="card-title">News title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the card's content.</p>
-                </div>
-            </div>
-
-        </div>
-    </div> -->
-
-
-
 
     <section class="news p-5 ">
         <div class="row gap-2 ">
-
             <div class="card border-0 ">
                 <p class="p ps-1"> INSIGHT</p>
                 <h1> Latest Article and News </h1>
                 <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
                     mattis, pulvinar dapibus leo. </h4>
-                <button class="custom-btn ">More Article</button>
+                <button class="custom-btn d-inline">More Article</button>
             </div>
-            <!--         
-            <div class="owl-carousel team-carousel position-relative "
-                style="display: flex; justify-content: center;  flex-wrap: wrap; gap: 5px;"> -->
-
-            <!-- <div class="team d-flex flex-column text-center rounded overflow-hidden">
-                <div class="position-relative">
-                    <div class="team-img">
-                        <img class="img-fluid w-100" src="assets/newsa.jpg" alt="">
-                    </div>
-                    <div class="latest-news d-flex flex-column align-items-center justify-content-center bg-light">
-                        <h3 style=" transform: rotate(270deg);
-                                              white-space: nowrap;">LATEST NEWS</h3>
-                    </div>
-                </div>
-                <div class="d-flex flex-column bg-light text-center py-4 " style="  width: 300px;">
-                    <h5 class="card-title ">News title</h5>
-                    <p class="card-text ">Some quick example text to build on the card title and make up the
-                        bulk of
-                        the card's content.</p>
-                </div>
-            </div>
-
-            <div class="team d-flex flex-column text-center rounded overflow-hidden">
-                <div class="position-relative">
-                    <div class="team-img">
-                        <img class="img-fluid w-100" src="assets/newsa.jpg" alt="">
-                    </div>
-                    <div class="latest-news d-flex flex-column align-items-center justify-content-center bg-light">
-                        <h3 style=" transform: rotate(270deg);
-                                              white-space: nowrap;">LATEST NEWS</h3>
-                    </div>
-                </div>
-                <div class="d-flex flex-column bg-light text-center py-4" style="  width: 300px;">
-                    <h5 class="card-title">News title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                        of
-                        the card's content.</p>
-                </div>
-            </div> -->
-
-
-
             <div class="card">
                 <img src="assets/b.jpg" class="card-img" alt="...">
                 <div class="card-body">
@@ -666,199 +502,182 @@
             </div>
         </div>
 
-        <!-- </div> -->
+
     </section>
 
 
-    <!-- <section class="mt-5 client-section">
-        <div class="text-center text-secondary mt-5">
-            <h6 class="title3">OUR ESTEEMED CLIENTS</h6>
-            <h1 class="w-100">We are Proud to Work With</h1>
-        </div>
-        <div id="clientsCarousel" class="carousel slide" data-bs-ride="carousel">
-            <ol class="carousel-indicators rounded-indicators">
-                <li data-bs-target="#clientsCarousel" data-bs-slide-to="0" class="active"></li>
-                <li data-bs-target="#clientsCarousel" data-bs-slide-to="1"></li>
-                <li data-bs-target="#clientsCarousel" data-bs-slide-to="2"></li>
-            </ol>
-            <style>
-                .rounded-indicators {
-                    list-style: none;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    margin-bottom: -2rem !important;
-                }
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
-                .rounded-indicators li {
-                    width: 10px !important;
-                    height: 10px !important;
-                    border-radius: 50%;
-                    background-color: #ccc;
-                    margin: 0 5px;
-                    cursor: pointer;
-                    transition: background-color 0.3s;
-                }
 
-                .rounded-indicators li.active {
-                    background-color: #fc006d;
-                }
-            </style>
+    <div class="text-center text-secondary my-5 ">
 
-            <div class="carousel-inner d-grid justify-content-center">
-                <div class="carousel-item active ">
-                    <div class="clients-container">
-                        <img src="/assets/client1.png" alt="Client Logo 1" class=" img border   p-4">
-                        <img src="/assets/client2.png" alt="Client Logo 2" class="img border  p-4">
-                        <img src="/assets/client3.png" alt="Client Logo 2" class="img border  p-4">
-                        <img src="/assets/client8.png" alt="Client Logo 2" class="img border  p-4">
-                        <img src="/assets/client9.jpg" alt="Client Logo 2" class="img border  p-4">
-                    </div>
+        <h4 class="  bg-danger d-inline-block p-1 text-light ">OUR ESTEEMED CLIENTS</h4>
+        <h2 class="fw-bold "> We are Proud to Work With</h2>
+
+
+    </div>
+
+    <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner clients">
+            <div class="carousel-item active">
+                <div class="card-wrapper container-sm d-flex  justify-content-around">
+                    <img src="assets/clients/client5.jpg" class="clients-img" alt="1">
+                    <img src="assets/clients/client2.png" class=" clients-img" alt=".2.">
+                    <img src="assets/clients/client3.png" class=" clients-img" alt="3">
+                    <img src="assets/clients/client4.png" class=" clients-img" alt="4.">
+                    <img src="assets/clients/client12.jpg" class=" clients-img" alt="5">
+                    <img src="assets/clients/client6.jpg" class=" clients-img" alt="6">
                 </div>
-                <div class="carousel-item">
-                    <div class="clients-container">
-                        <img src="/assets/client4.png" alt="Client Logo 3" class="img border  p-4">
-                        <img src="/assets/client11.png" alt="Client Logo 4" class="img border  p-4">
-                        <img src="/assets/client12.jpg" alt="Client Logo 4" class="img border  p-4">
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="clients-container">
-                        <img src="/assets/client6.jpg" alt="Client Logo 5" class="img border  p-4">
-                        <img src="/assets/client7.png" alt="Client Logo 6" class="img border  p-4">
-                        <img src="/assets/client13.webp" alt="Client Logo 6" class="img border  p-4">
-                        <img src="/assets/client14.jpeg" alt="Client Logo 6" class="img border  p-4">
+            </div>
+            <div class="carousel-item">
+                <div class="card-wrapper container-sm d-flex   justify-content-around">
+                    <div class="card-wrapper container-sm d-flex  justify-content-around">
+                        <img src="assets/clients/client7.png" class="clients-img" alt="...">
+                        <img src="assets/clients/client8.png" class=" clients-img" alt="...">
+                        <img src="assets/clients/client9.jpg" class=" clients-img" alt="...">
+                        <img src="assets/clients/client10.png" class=" clients-img" alt="...">
+                        <img src="assets/clients/client11.png" class=" clients-img" alt="...">
+                        <img src="assets/clients/client12.jpg" class=" clients-img" alt="...">
                     </div>
                 </div>
             </div>
-
-            <a class="carousel-control-prev" href="#clientsCarousel" role="button" data-bs-slide="prev">
+            <div class="carousel-item">
+                <div class="card-wrapper container-sm d-flex  justify-content-around">
+                    <div class="card-wrapper container-sm d-flex  justify-content-around">
+                        <img src="assets/clients/client13.webp" class="clients-img" alt="...">
+                        <img src="assets/clients/client14.jpeg" class=" clients-img" alt="...">
+                        <img src="assets/clients/client15.jpg" class=" clients-img" alt="...">
+                        <img src="assets/clients/client16.png" class=" clients-img" alt="...">
+                        <img src="assets/clients/client17.png" class=" clients-img" alt="...">
+                        <img src="assets/clients/client18.png" class=" clients-img" alt="...">
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#clientsCarousel" role="button" data-bs-slide="next">
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
-            </a>
+            </button>
         </div>
-    </section> -->
 
 
 
-    <section class="mt-5">
-        <div class="text-center text-secondary mt-5">
-            <h6 class="title3 ">OUR ESTEEMED CLIENTS</h6>
-            <h1 class="w-100">We are Proud to Work With</h1>
-        </div>
-        <div class="clients-container">
-            <div class="clients-image">
-                <img src="/assets/client1.png" class="border p-4" alt="logo">
-                <img src="/assets/client2.png" class="border p-4" alt="logo">
-                <img src="/assets/client3.png" class="border p-4" alt="logo">
-                <img src="/assets/client8.png" class="border p-4" alt="logo">
-                <img src="/assets/client4.png" class="border p-4" alt="logo">
-                <img src="/assets/client12.jpg" class="border p-4" alt="logo">
-                <img src="/assets/client6.jpg" class="border p-4" alt="logo">
-                <img src="/assets/client7.png" class="border p-4" alt="logo">
-                <img src="/assets/client13.webp" class="border p-4" alt="logo">
-                <img src="/assets/client14.jpeg" class="border p-4" alt="logo">
+
+        <!-- <section class="mt-5">
+            <div class="text-center text-secondary mt-5">
+                <h6 class="title3 ">OUR ESTEEMED CLIENTS</h6>
+                <h1 class="w-100">We are Proud to Work With</h1>
             </div>
-        </div>
-    </section>
+            <div class="clients-container">
+                <div class="clients-image">
+                    <img src="assets/client1.png" class="border p-4" alt="logo">
+                    <img src="assets/client2.png" class="border p-4" alt="logo">
+                    <img src="assets/client3.png" class="border p-4" alt="logo">
+                    <img src="assets/client8.png" class="border p-4" alt="logo">
+                    <img src="assets/client4.png" class="border p-4" alt="logo">
+                    <img src="assets/client12.jpg" class="border p-4" alt="logo">
+                    <img src="assets/client6.jpg" class="border p-4" alt="logo">
+                    <img src="assets/client7.png" class="border p-4" alt="logo">
+                    <img src="assets/client13.webp" class="border p-4" alt="logo">
+                    <img src="assets/client14.jpeg" class="border p-4" alt="logo">
+                </div>
+            </div>
+        </section> -->
 
-    <section class="mt-5">
-        <footer class="bg-danger text-light">
-            <div class="container pt-5">
-                <div class="row">
-                    <div class="col-md-7">
+        <section class="mt-5">
+            <footer class="bg-danger text-light">
+                <div class="container pt-5">
+                    <div class="col-md-12">
                         <div class="row">
-                            <div class="col-md-4 mb-md-0 mb-4">
-                                <h2 class="footer-heading"><img src="./assets/sac.jpg" alt="" class="w-50 p-2 bg-light">
+                            <div class="col-md-6 mb-md-0 mb-4">
+                                <h2 class="footer-heading"><img src="./assets/sac.jpg" alt="" class="w-25 p-2 bg-light">
                                 </h2>
-                                <ul class="list-unstyled">
-                                    <div class="d-block"> 9th Street, M-15, Abu Dhabi, UAE</div>
-                                    <div class="d-block">+971 547 202014</div>
-                                    <div class="d-block"> info@superarc.net</div>
-                                    <div class="d-block"> www.superarc.net</div>
-                                </ul>
+                                <p>Super Arc Consultant (SAC) is a multi-disciplinary design and engineering
+                                    consultancy firm providing services of all types of architectural,
+                                    Structural,Infrastructural and building assessment projects.</p>
                             </div>
-                            <div class="col-md-4 mb-md-0 mb-4">
+                            <div class="col-md-3 mb-md-0 mb-4">
                                 <h2 class="footer-heading">Company</h2>
                                 <ul class="list-unstyled">
-                                    <div href="#" class="d-block">Our services</div>
+
                                     <li>
                                         <div href="#" class=" text-decoration-0 d-block">
-                                            <i class="bi bi-arrow-right-short"></i>Clients
+                                            <i class="bi bi-arrow-right-short"></i>Home
                                         </div>
                                     </li>
                                     <li>
-                                        <div href="#" class="d-block"> <i class="bi bi-arrow-right-short"></i>
-                                            Contact
+                                        <div href="#" class="d-block"> <i class="bi bi-arrow-right-short"></i>About
                                         </div>
                                     </li>
                                     <li>
-                                        <div href="#" class="d-block"> <i class="bi bi-arrow-right-short"></i>Press
+                                        <div href="#" class="d-block"> <i class="bi bi-arrow-right-short"></i>Service
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div href="#" class="d-block"> <i class="bi bi-arrow-right-short"></i>Projects
                                         </div>
                                     </li>
                                 </ul>
                             </div>
-                            <div class="col-md-4 mb-md-0 mb-4">
-                                <h2 class="footer-heading">Brouchure</h2>
+
+                            <div class="col-md-3 mb-md-0 mb-4">
+                                <h2 class="footer-heading">Address</h2>
                                 <ul class="list-unstyled">
-                                    <div>Download Brouchure</div>
+                                    <div class="d-block"> <i class="me-2 fa-solid fa-address-book"></i>9th Street, M-15,
+                                        Abu Dhabi, UAE</div>
+                                    <div class="d-block"> <i class="me-2 fa-solid fa-phone"></i>+971 547 202014</div>
+                                    <div class="d-block"><i class="me-2 fa-solid fa-envelope"></i> info@superarc.net
+                                    </div>
+                                    <div class="d-block"> <i class="me-2 fa-solid fa-globe"></i> www.superarc.net</div>
                                 </ul>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-5 mb-md-0 mb-4">
-                        <h2 class="footer-heading">Subscribe</h2>
-                        <form action="#" class="subscribe-form">
-                            <div class="form-group d-flex gap-2">
-                                <input type="text" class="form-control rounded-left" placeholder="Enter email address"
-                                    fdprocessedid="40b6yd">
-                                <button type="submit" class="form-control submit rounded-right"
-                                    fdprocessedid="ncmon">Subscribe</button>
+
+
+                        <div class="row mt-5 pt-4 border-top text-center">
+                            <div class="col-md-6 col-lg-12 mb-md-0 mb-4-5">
+                                <p class="copyright mb-1">
+                                    Copyright ©
+                                    <script>document.write(new Date().getFullYear());</script> All rights reserved. |
+                                    Devolped by <a href="http://www.webitgroup.com"
+                                        class="text-decoration-none text-light  cursor-pointer">Mizmar Technologies</a>
+                                </p>
                             </div>
-                            <span class="subheading">Get digital marketing updates in your mailbox</span>
-                        </form>
-                    </div>
-                </div>
-                <div class="row mt-5 pt-4 border-top text-center">
-                    <div class="col-md-6 col-lg-12 mb-md-0 mb-4-5">
-                        <p class="copyright mb-5">
-                            Copyright ©
-                            <script>document.write(new Date().getFullYear());</script> All rights reserved.
-                        </p>
-                    </div>
 
-                </div>
-            </div>
-        </footer>
-    </section>
+                        </div>
+
+            </footer>
+        </section>
 
 
-    <script>
-        function incrementNumber(targetId, targetNumber, speed) {
-            const targetElement = document.getElementById(targetId);
-            let currentNumber = 0;
-            const incrementSpeed = speed;
+        <script>
+            function incrementNumber(targetId, targetNumber, speed) {
+                const targetElement = document.getElementById(targetId);
+                let currentNumber = 0;
+                const incrementSpeed = speed;
 
-            function increment() {
-                if (currentNumber < targetNumber) {
-                    currentNumber += incrementSpeed;
-                    targetElement.textContent = currentNumber;
-                    setTimeout(increment, 100); // Delay between increments
-                } else {
-                    targetElement.textContent = targetNumber;
+                function increment() {
+                    if (currentNumber < targetNumber) {
+                        currentNumber += incrementSpeed;
+                        targetElement.textContent = currentNumber;
+                        setTimeout(increment, 100); // Delay between increments
+                    } else {
+                        targetElement.textContent = targetNumber;
+                    }
                 }
+                increment();
             }
-            increment();
-        }
-        incrementNumber('projectCount', 150, 6);
-        incrementNumber('clientCount', 130, 5);
-        incrementNumber('awardCount', 25, 1);
-        incrementNumber('teamCount', 40, 2);
-    </script>
+            incrementNumber('projectCount', 150, 6);
+            incrementNumber('clientCount', 130, 5);
+            incrementNumber('awardCount', 25, 1);
+            incrementNumber('teamCount', 40, 2);
+        </script>
 </body>
 
 
