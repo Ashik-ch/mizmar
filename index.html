@@ -2,13 +2,13 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SAC</title>
-    <link rel="icon" href="assets/android-chrome-192x192.png" type="image/x-icon">
+    <link rel="icon" href="assets/android-chrome-192x192.png" type="image/x-icon" />
 
     <!-- bootstrap -->
-    <link rel="stylesheet" href="bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap.css" />
     <script src="bootstrap/bootstrap.js"></script>
     <!-- Font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -18,669 +18,671 @@
         integrity="sha512-W/zrbCncQnky/EzL+/AYwTtosvrM+YG/V6piQLSe2HuKS6cmbw89kjYkp3tWFn1dkWV7L1ruvJyKbLz73Vlgfg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Google font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
         href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Red+Hat+Display:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
+        rel="stylesheet" />
     <!-- Style -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-
     <!-- header -->
     <header class="header w-100">
-        <div class="ms-5 p-2 img-pos">
-            <img src=" assets/sac.jpg" alt="" class="img ">
+        <div class="ms-5   img-pos">
+            <img src=" assets/sac.jpg" alt="" class="img" />
         </div>
-        <div class="d-flex justify-content-evenly header-shape  ms-auto flex-wrap ">
-            <div class="d-flex align-items-center ">
-                <i class="fa-solid fa-location-dot fa-xl me-3 text-light d-none d-md-inline"></i>
+        <div class="d-flex justify-content-evenly header-shape ms-auto flex-wrap">
+            <div class="d-flex align-items-center">
+                <i class="fa-solid fa-location-dot fa-xl me-3 text-light d-none d-md-inline"> </i>
                 <i class="fa-solid fa-location-dot fa-lg me-3 text-light d-md-none"></i>
                 <div class="text-light">
-                    <b>Abu Dhabi</b><br>
+                    <b>Abu Dhabi</b><br />
                     <span class="text-light">9th Street, M-15, UAE</span>
                 </div>
             </div>
             <div class="d-flex align-items-center">
-                <i class="fa-solid fa-envelope fa-xl me-3 text-light  d-none d-md-inline"></i>
+                <i class="fa-solid fa-envelope fa-xl me-3 text-light d-none d-md-inline"></i>
                 <i class="fa-solid fa-envelope fa-lg me-3 text-light d-md-none"></i>
                 <div class="text-light">
-                    <b>info@superarc.net</b><br>
-                    <span class="text-light ">www.superarc.net</span>
+                    <b>info@superarc.net</b><br />
+                    <span class="text-light">www.superarc.net</span>
                 </div>
             </div>
             <div class="d-flex align-items-center">
                 <i class="fa-solid fa-phone-volume fa-xl me-3 text-light d-none d-md-inline"></i>
                 <i class="fa-solid fa-phone-volume fa-lg me-3 text-light d-md-none"></i>
-                <div class="text-light"> <b>info@superarc.net</b><br>
-                    <span class="text-light ">+971 547 202014</span>
+                <div class="text-light">
+                    <b>info@superarc.net</b><br />
+                    <span class="text-light">+971 547 202014</span>
                 </div>
-
             </div>
         </div>
     </header>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg bg-light sticky-top">
         <div class="container">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-
             </button>
 
-            <i class="bi bi-search d-sm-inline d-md-none d-none"></i>
-
-            <div class="collapse navbar-collapse " id="navbarNavDropdown">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <div class="col">
-                    <ul class="navbar-nav justify-content-center ">
+                    <ul class="navbar-nav justify-content-center">
                         <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                        <a class="nav-link " href="#about">About</a>
+                        <a class="nav-link" href="#about">About</a>
                         <a class="nav-link" href="#service">Service</a>
                         <a class="nav-link" href="#project">Projects</a>
                         <a class="nav-link" href="#contact">Contact Us</a>
                     </ul>
                 </div>
-                <!-- <div class="col text-end">
-                    <i class="bi bi-search d-none d-lg-inline"></i>
-                </div> -->
             </div>
         </div>
     </nav>
 
-    <!-- Carousel Start -->
-    <div class="container-fluid p-0 mb-5" id="home">
-        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner" style="height:100vh" s>
-                <div class="carousel-item active">
-                    <img class="w-100" src="assets/homeC_page-0001.jpg" alt="Image">
-                    <div class="carousel-caption">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-7 pt-5">
-                                    <h1 class="display-4 mb-4 animated slideInDown carousel-text">Super Arc Consultant
-                                        (SAC)</h1>
-                                    <p class="fs-5  mb-4 pb-2 mx-sm-5 animated slideInDown carousel-text">For the
-                                        Quality Products
-                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, neque.
-                                    </p>
-                                    <a href=""
-                                        class="custom-btn py-3 my-5 mb-5 px-5 animated slideInDown border-0">Explore
-                                        More</a>
+    <main>
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0 mb-5" id="home">
+            <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner" style="max-height: 100vh">
+                    <div class="carousel-item active">
+                        <img class="w-100" src="assets/homeC_page-0001.jpg" alt="Image" />
+                        <div class="carousel-caption">
+                            <div class="contaier">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-7 pt-5 carousel-text">
+                                        <h1 class="display-4 mb-4 animated slideInDown carousel-text">
+                                            Super Arc Consultant (SAC) </h1>
+                                        <p class="fs-5 mb-4 pb-2 mx-sm-5 animated slideInDown carousel-text">
+                                            For the Quality Products Lorem, ipsum dolor sit amet
+                                            consectetur adipisicing elit. Harum, neque.
+                                        </p>
+                                        <a href=""
+                                            class="custom-btn py-3 my-5 mb-5 px-5 animated slideInDown border-0">Explore
+                                            More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="w-100" src="assets/homeA_page-0001.jpg" alt="Image" />
+                        <div class="carousel-caption">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-7 pt-5 carousel-text">
+                                        <h1 class="display-4 mb-4 animated slideInDown carousel-text">
+                                            Super Arc Consultant (SAC)
+                                        </h1>
+                                        <p class="fs-5 mb-4 pb-2 mx-sm-5 animated slideInDown carousel-text">
+                                            Life time Guarantee Lorem, ipsum dolor sit amet
+                                            consectetur adipisicing elit. Harum, neque.
+                                        </p>
+                                        <a href=""
+                                            class="custom-btn mb-5 py-3 px-5 animated slideInDown border-0">Explore
+                                            More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="w-100" src="assets/homeB_page-0001.jpg" alt="Image" />
+                        <div class="carousel-caption">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-7 pt-5 carousel-text">
+                                        <h1 class="display-4 mb-4 animated slideInDown carousel-text">
+                                            Super Arc Consultant (SAC)
+                                        </h1>
+                                        <p class="fs-5 mb-4 pb-2 mx-sm-5 animated slideInDown carousel-text">
+                                            Life time Guarantee Lorem, ipsum dolor sit amet
+                                            consectetur adipisicing elit. Harum, neque.
+                                        </p>
+                                        <a href=""
+                                            class="custom-btn mb-5 py-3 px-5 animated slideInDown border-0">Explore
+                                            More</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <img class="w-100" src="assets/homeA_page-0001.jpg" alt="Image">
-                    <div class="carousel-caption">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-7 pt-5">
-                                    <h1 class="display-4  mb-4 animated slideInDown carousel-text">Super Arc Consultant
-                                        (SAC)</h1>
-                                    <p class="fs-5  mb-4 pb-2 mx-sm-5 animated slideInDown carousel-text">Life time
-                                        Guarantee
-                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, neque.</p>
-                                    <a href="" class="custom-btn mb-5 py-3 px-5 animated slideInDown border-0">Explore
-                                        More</a>
-                                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- About Start -->
+        <div class="container-fluid overflow-hidden my-5 section-about" id="about">
+            <div class="container px-lg-0 d-flex">
+                <div class="row g-0 mx-lg-0">
+                    <div class="col-lg-6 ps-lg-0" style="min-height: 400px">
+                        <div class="position-relative h-100">
+                            <img class="position-absolute img-fluid w-100 h-100" src="assets/newsb.jpg"
+                                style="object-fit: cover" alt="" />
+                        </div>
+                    </div>
+                    <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                        <div class="p-lg-5 pe-lg-0 ">
+                            <div class="section-title text-start">
+                                <h4 class="display-5 mb-4 fw-bold ">ABOUT PROPOSAL</h4>
+                            </div>
+                            <h5 class="mt-1 text-dark  ">
+                                <span class="fs-2 fw-bold my-2 text-danger">
+                                    Super Arc Consultant (SAC) </span>
+                                <p class="mb-4 pb-2">
+                                    is a multi-disciplinary design and engineering consultancy firm providing services
+                                    of all types of
+                                    <span class="title1"> Architectural, Structural, Infrastructural and building
+                                        assessment projects.
+                                    </span>
+                                </p>
+                            </h5>
+                            <a href="about.html" class="custom-btn border-1 py-3 px-5">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Service -->
+        <section class="section-service" id="service">
+            <div class="section-bg pt-5"></div>
+            <section class="section-sevice">
+                <div class="section-title text-center">
+                    <h4 class="display-5 mb-4 fw-bold text-white">OUR SERVICE</h4>
+                </div>
+
+                <div class="d-flex justify-content-center m-5 gap-5 px-4 flex-wrap text-center">
+                    <div class="border border-2 custom-card  card1">
+                        <i class="fa-solid fa-gears"></i>
+                        <div class="card-body mt-4">
+                            <h5 class="fw-bold card-title">Consulting</h5>
+                            <div class="mt-4">
+                                Our geotechnical engineering consultancy services include site
+                                investigation foundation design, and soil stabilization. We
+                                offer innovative solutions for challenging soil conditions.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border border-2 custom-card card2">
+                        <i class="fa-solid fa-file-signature"></i>
+                        <div class="card-body mt-4">
+                            <h5 class="fw-bold card-title card-title">Contracting</h5>
+                            <div class="mt-4">
+                                General Contracting, Design and Build, Civil and
+                                Infrastructure Works, Residential Construction, Commercial and
+                                Office Buildings,..
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border border-2 custom-card card3">
+                        <i class="fa-solid fa-compass-drafting"></i>
+                        <div class="card-body mt-4">
+                            <h5 class="fw-bold card-title">Interior Design & Fitout</h5>
+                            <div class="mt-4">
+                                Interior Design, Fit-Out Works, Fit-Out Works, Fit-Out Works,
+                                Fit-Out Works, Project Management and More.
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-    </div>
-    <!-- Carousel End -->
-
-
-
-    <!-- About Start -->
-    <div class="container-fluid overflow-hidden my-5 px-lg-0">
-        <div class="container about px-lg-0" id="about">
-            <div class="row g-0 mx-lg-0">
-                <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="assets/newsb.jpg"
-                            style="object-fit: cover;" alt="">
-                    </div>
+                <div class="text-center pb-5">
+                    <a href="" class="custom-btn py-3 my-5 mb-5 px-5 animated slideInDown border-0">MORE ABOUT OUR
+                        SERVICE</a>
                 </div>
-                <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="p-lg-5 pe-lg-0">
-                        <div class="section-title text-start">
-                            <h4 class="display-5 mb-4 fw-bold">ABOUT PROPOSAL</h4>
-                        </div>
-                        <!-- <p class="mb-4 pb-2">Our aim to provide the finest range of charcoal and firewood creates the
-                            best experiences for our customers, be it for wood fired pizza stoves, tandoori stoves,
-                            charcoal steamboats, grill, roast or even BBQ. <br><br>
-                            For over a decade and counting, we are committed to providing only the finest quality of
-                            charcoal and firewood to the UAE market.</p> -->
-
-                        <h5 class=" mt-1 text-dark index">
-                            <div class="fs-2 fw-bold  my-2 text-danger "> Super Arc Consultant (SAC) </div>
-                            <p class="mb-4 pb-2 ">
-                                Super Arc Consultant (SAC) is a multi-disciplinary design and engineering consultancy
-                                firm providing services of all types of <span class="title1"> architectural,
-                                    Structural,Infrastructural
-                                    and building assessment projects.</p>
-                            </span>
-                        </h5>
-
-
-                        <a href="about.html" class="custom-btn border-1 py-3 px-5">Read More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- About End -->
-
-    <!-- Service -->
-    <section class="about-service " id="service">
-        <div class="section-bg  pt-5"></div>
-        <section class="section-sevice ">
-            <div class="section-title text-center">
-                <h4 class="display-5 mb-4 fw-bold text-white">OUR SERVICE</h4>
-            </div>
-
-            <div class="d-flex justify-content-center m-5 gap-5 px-4 flex-wrap text-center">
-                <div class=" border border-2 custom-card ">
-                    <i class="fa-solid fa-gears "></i>
-                    <div class="card-body  mt-4">
-                        <h5 class="fw-bold card-title">Consulting</h5>
-                        <div class=" mt-4">
-                            Our geotechnical engineering consultancy services include site investigation foundation
-                            design, and soil stabilization. We offer innovative solutions for challenging soil
-                            conditions.
-                        </div>
-                    </div>
-                </div>
-                <div class=" border border-2 custom-card">
-                    <i class="fa-solid fa-file-signature"></i>
-                    <div class="card-body  mt-4">
-                        <h5 class="fw-bold card-title card-title">Contracting</h5>
-                        <div class="mt-4">
-                            General Contracting, Design and Build, Civil and Infrastructure Works, Residential
-                            Construction, Commercial and Office Buildings,..
-                        </div>
-                    </div>
-                </div>
-                <div class=" border border-2 custom-card ">
-                    <i class="fa-solid fa-compass-drafting"></i>
-                    <div class="card-body mt-4">
-                        <h5 class="fw-bold card-title">Interior Design & Fitout</h5>
-                        <div class=" mt-4">
-                            Interior Design, Fit-Out Works, Fit-Out Works, Fit-Out Works, Fit-Out Works, Project
-                            Management and More.
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="text-center pb-5">
-                <a href="" class="custom-btn py-3 my-5 mb-5 px-5 animated slideInDown border-0">MORE ABOUT OUR
-                    SERVICE</a>
-            </div>
+            </section>
         </section>
-    </section>
-    <!-- Service  End-->
+        <!-- Service  End-->
 
+        <!-- Growth -->
+        <section class="section-growth py-5">
 
+            <!-- <div class="row">
+                <div class="col-lg-6 col-sm-12" style="min-height: 400px">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100" src="assets/newsa.jpg" style="object-fit: cover" />
+                    </div>
+                </div>  -->
 
-
-    <!-- Growth -->
-    <section class="section-growth py-5">
-        <div class="row">
-            <div class="col-lg-6 col-sm-12" style="min-height: 400px;">
-                <div class="position-relative h-100 ">
-                    <img class="position-absolute w-100 h-100" src="assets/newsa.jpg" style="object-fit: cover;">
+            <div class="d-flex flex-wrap">
+                <div class="col-lg-6 col-sm-12" style="height: 400px">
+                    <img class=" w-100 h-100 " src="assets/newsa.jpg" style="object-fit: cover" />
                 </div>
-            </div>
 
-            <div class="col-lg-6 col-sm-12 bg-dark p-4  text-light " style="position: relative;">
-                <h6>NUMBERS SPEAK</h6>
-                <h1 class=" fs-1 fw-bold ">SAC's Growth</h1>
-                <div class="outer-div bg-dark">
-
-                    <div class="main-box d-flex">
-                        <div class="small-box small-box-1">
-                            <div class="d-flex align-items-center">
-                                <i class="fa-solid fa-people-group fa-2xl"></i>
+                <div class="col-lg-6 col-sm-12 bg-dark p-4 text-light" style="position: relative">
+                    <h6>NUMBERS SPEAK</h6>
+                    <h1 class="fs-1 fw-bold">SAC's Growth</h1>
+                    <div>
+                        <div class="main-box d-flex">
+                            <div class="small-box small-box-1">
+                                <i class="fa-solid fa-people-group"></i>
                                 <div class="text">
-                                    <h1> <span id="projectCount"> 1</span> +</h1>
+                                    <h1><span id="projectCount"> 1</span> +</h1>
                                     PROJECTS
                                 </div>
                             </div>
-                        </div>
-                        <div class="small-box">
-                            <div class="d-flex align-items-center">
+                            <div class="small-box">
                                 <i class="fa-solid fa-people-group fa-2xl"></i>
                                 <div class="text">
-                                    <h1><span id="clientCount">1 </span>+</h1> HAPPY CLIENTS
+                                    <h1><span id="clientCount">1 </span>+</h1>
+                                    HAPPY CLIENTS
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="main-box d-flex">
-                        <div class="small-box small-box-bottom small-box-1">
-                            <div class="d-flex align-items-center">
+                        <div class="main-box d-flex">
+                            <div class="small-box small-box-bottom small-box-1">
                                 <i class="fa-solid fa-people-group fa-2xl"></i>
                                 <div class="text">
-
-                                    <h1><span id="awardCount">1</span>+</h1> AWARDS
+                                    <h1><span id="awardCount">1</span>+</h1>
+                                    AWARDS
                                 </div>
                             </div>
-                        </div>
-                        <div class="small-box small-box-bottom">
-                            <div class="d-flex align-items-center ">
+                            <div class="small-box small-box-bottom">
                                 <i class="fa-solid fa-people-group fa-2xl"></i>
                                 <div class="text">
                                     <span>
-                                        <h1> <span id="teamCount"> 1</span> +</h1>
-                                    </span> TEAM MEMBERS
+                                        <h1><span id="teamCount"> 1</span> +</h1>
+                                    </span>
+                                    TEAM MEMBERS
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="text-center m-5">
-            <button class=" custom-btn py-3 px-5">Learn More About Us </button>
-        </div>
-    </section>
-    <!-- Growth End -->
-
-    <!-- Key Projects -->
-    <hr>
-    <section class="section4 p-5" id="project">
-
-        <div class="d-flex text-start  justify-content-around flex-wrap gap-4">
-            <div style="max-width: 540px;">
-                <h6 class="fw-bold bg-danger text-light py-1">KEY PROJECTS</h6>
-                <h2 class="fw-bold "> 450+ PROJECT RECORD</h2>
-
-
-                <p class="text-secondary">AVENIR has been successful at delivering its innovative and cost-effective
-                    solutions to its clients and partners, and has been tremendously careful at meeting the business
-                    requirements on time and has been commendable at it. This has only increased the credibility of the
-                    company in the industries it has been servicing and it strives to add value to all the projects it
-                    undertakes. At present, AVENIR is constantly striving to deliver the best in a plethora of diverse
-                    ongoing projects</p>
+            <div class="text-center m-5">
+                <button class="custom-btn  py-3 px-5  ">Learn More About Us</button>
             </div>
+        </section>
+        <!-- Growth End -->
 
-            <div class="card mb-3" style="max-width: 540px;">
-                <div class="row g-0">
-                    <div class="col-lg" style="max-height: 400px;">
-                        <img src="https://static.propsearch.ae/dubai-locations/the-diamond-15832_xl.jpg"
-                            class="img-fluid rounded-start" alt="..." style="height: 100%; object-fit: cover;">
-                    </div>
-                    <div class="col-lg">
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold">The Diamond Tower</h5>
-                            <p class="card-text">
-                                Track Modification for Yas marina circuit - Geotechnical Assessment .
-                                Design & Supervision of soil improvement works in relation to track located at YAS
-                                Marina Circuit, Abu Dhabi
+        <hr />
+        <!-- Key Projects -->
+        <section class="section4 pb-2" id="project">
+            <div class="container-fluid ">
+                <div class="d-flex text-start justify-content-around flex-wrap gap-4">
+                    <div style="max-width: 540px">
+                        <h6 class="fw-bold bg-danger text-light p-1">KEY PROJECTS</h6>
+                        <div class="slide">
+                            <h2 class="fw-bold">450+ PROJECT RECORD</h2>
+                            <p class="text-secondary">
+                                Super Arc Consultant (SAC) is a multi-disciplinary design and engineering consultancy
+                                firm
+                                providing services for all types of Structural and Infrastructural projects. With a
+                                highly
+                                professional managing team having over 20 years of experience in consulting, we can
+                                deliver
+                                innovative and smart structural, Infrastructural & Geotechnical solutions for complex
+                                challenges. Focusing on structural, geotechnical, infrastructure engineering and
+                                construction works supervisions. Super Arc Consultant carries out work on all types of
+                                structures, operating in the Design & construction field to provide expert, independent
+                                and
+                                impartial services concerning problems with existing buildings and structures as well as
+                                new
+                                structures. We deliver design/design-build, program/construction management, and other
+                                professional services packaged in innovative alternative delivery methods to regional
+                                and
+                                local government agencies as well as to private industrial customers worldwide.
                             </p>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="section-bg"></div>
-            <div class="card mb-3 " style="max-width: 540px ;">
-                <div class="row g-0">
-                    <div class="col-md-12" style="max-height: 400px;">
-                        <img src="https://www.timeoutabudhabi.com/cloud/timeoutabudhabi/2021/09/09/2I6Fus5B-Abu-Dhabi-Grand-Prix-2021-1.jpg"
-                            class="img-fluid rounded-start  " style="height: 100%; object-fit: cover;" alt="...">
-                    </div>
-                    <div class="col-md-12">
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold">Yas Marina Circuit, ADMM</h5>
-                            <p c lass="card-text">
-                                Track Modification for Yas marina circuit - Geotechnical Assessment .
-                                Design & Supervision of
-                            </p>
+
+                    <div class="card mb-3 card1" style="max-width: 540px">
+                        <div class="row g-0">
+                            <div class="col-lg card " style="max-height: 400px">
+                                <img src="https://static.propsearch.ae/dubai-locations/the-diamond-15832_xl.jpg"
+                                    class="img-fluid rounded-start h-100 w-100" alt="..." style=" object-fit: cover" />
+                            </div>
+                            <div class="col-lg">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">The Diamond Tower</h5>
+                                    <p class="card-text">
+                                        Track Modification for Yas marina circuit - Geotechnical
+                                        Assessment . Design & Supervision of soil improvement works
+                                        in relation to track located at YAS Marina Circuit, Abu
+                                        Dhabi
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                    <div class="card mb-3 card2" style="max-width: 540px">
+                        <div class="row g-0">
+                            <div class="col-md-12" style="max-height: 400px">
+                                <img src="https://www.timeoutabudhabi.com/cloud/timeoutabudhabi/2021/09/09/2I6Fus5B-Abu-Dhabi-Grand-Prix-2021-1.jpg"
+                                    class="img-fluid rounded-start h-100 w-100" style="  object-fit: cover" alt="..." />
+                            </div>
+                            <div class="col-md-12">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Yas Marina Circuit, ADMM</h5>
+                                    <p c lass="card-text">
+                                        Track Modification for Yas marina circuit - Geotechnical
+                                        Assessment . Design & Supervision of
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3 card3" style="max-width: 540px">
+                        <div class="row g-0">
+                            <div class="col-md-12" style="max-height: 400px"></div>
+                            <img src="https://images.skyscrapercenter.com/building/_5794.jpg"
+                                class="img-fluid rounded-start" alt="..."
+                                style="max-height: 361px; width: 100%; object-fit: cover; " />
+                        </div>
+                        <div class="col">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">The Ciel Dubai</h5>
+                                <p c lass="card-text">
+                                    Track Modification for Yas marina circuit - Geotechnical
+                                    Assessment. Design & Supervision of soil improvement works in
+                                    relation to track located at YAS Marina Circuit, Abu Dhabi
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="section-bg"></div>
+
+                <div class="text-center m-5">
+                    <button class="custom-btn px-5 py-3 border-0">
+                        MORE ABOUT OUR PROJECTS
+                    </button>
                 </div>
             </div>
+        </section>
 
-            <div class="card mb-3" style="max-width: 540px;">
-                <div class="row g-0">
-                    <div class="col-md-12" style="max-height: 400px;"></div>
-                    <img src="https://images.skyscrapercenter.com/building/_5794.jpg" class="img-fluid rounded-start "
-                        alt="..." style="    max-height: 361px;
-                            width: 100%; object-fit: cover;">
+        <!-- TESTIMONIAL -->
+
+        <section class="testimonial-section my-5  ">
+            <div class="container text-center">
+                <h4 class="bg-danger d-inline-block p-1 text-light my-3">
+                    TESTIMONIAL
+                </h4>
+                <h2 class="fw-bold mb-4">What our customers say</h2>
+
+                <div class="testimonial">
+                    <div id="carouselExampleCaptions" class="carousel slide innerbody" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                class="active carousel-radio" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2" class="carousel-radio"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3" class="carousel-radio"></button>
+                        </div>
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="testimonial-body">
+                                    <h5 class=" ">
+                                        SAC's expertise and specialized knowledge in Hydrological
+                                        and Hydraulic Modeling have been crucial to the project's
+                                        success.
+                                    </h5>
+
+                                    <div class="d-flex justify-content-center mt-4">
+                                        <img src="assets/thanks1.jpeg" class="rounded-3" alt="" width="100px"
+                                            height="100px" />
+                                        <div class="my-auto ms-3 text-start">
+                                            <h5 class="my-0">Sherif Ezz</h5>
+                                            <h6>Project Manager</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonial-body">
+                                    <h5 class=" ">
+                                        Since our cooperation started, we have become more robust
+                                        with the knowledge and support you have provided us. "
+                                    </h5>
+                                    <div class="d-flex justify-content-center mt-4">
+                                        <img src="assets/thank2.png" class="rounded-3" alt="" width="100px"
+                                            height="100px" />
+                                        <div class="my-auto ms-3 text-start">
+                                            <h5 class="my-0">Amr Al Bawab</h5>
+                                            <h6>Cheif CO</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonial-body">
+                                    <h5 class=" ">
+                                        We are writing this Letter to express our appreciation to
+                                        work with Super Arc Consultant on Track Modification
+                                        project as one of our sub-consultants particularly for the
+                                        soil improvement works.
+                                    </h5>
+
+                                    <div class="d-flex justify-content-center mt-4">
+                                        <img src="assets/thank3.jpeg" class="rounded-3" alt="" width="100px"
+                                            height="100px" />
+                                        <div class="my-auto ms-3 text-start">
+                                            <h5 class="my-0">Roberto Elsisura</h5>
+                                            <h6>Project Manager</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 </div>
-                <div class="col">
+            </div>
+        </section>
+
+
+        <!-- NEWS -->
+        <section class="news p-5">
+            <div class="d-flex flex-wrap gap-2">
+                <div class="card border-0 card1">
+                    <p class="p ps-1">INSIGHT</p>
+                    <h1>Latest Article and News</h1>
+                    <h4>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+                        tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                    </h4>
+                    <div class="d-inline-block">
+                        <button class="custom-btn py-2 px-4 mt-4">More Article</button>
+                    </div>
+                </div>
+                <div class="card card2">
+                    <img src="assets/b.jpg" class="card-img" alt="..." />
                     <div class="card-body">
-                        <h5 class="card-title fw-bold">The Ciel Dubai</h5>
-                        <p c lass="card-text">
-                            Track Modification for Yas marina circuit - Geotechnical Assessment. Design &
-                            Supervision of soil improvement works in relation to track located at YAS
-                            Marina Circuit, Abu Dhabi
+                        <li class="list-group-item my-3 text-danger">Date</li>
+                        <h5 class="card-title">News title</h5>
+                        <p class="card-text">
+                            Some quick example text to build on the card title and make up
+                            the bulk of the card's content.
+                        </p>
+                    </div>
+                </div>
+                <div class="card card3">
+                    <img src="assets/d.jpg" class="card-img" alt="..." />
+                    <div class="card-body">
+                        <li class="list-group-item my-3 text-danger">Date</li>
+                        <h5 class="card-title">News title</h5>
+                        <p class="card-text pb-2">
+                            Some quick example text to build on the card title and make up
+                            the bulk of the card's content.
                         </p>
                     </div>
                 </div>
             </div>
-        </div>
-        </div>
+        </section>
 
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+            crossorigin="anonymous" /> -->
+        <!-- Clientṣ -->
+        <section class="clients">
+            <div class="text-center text-secondary my-5">
+                <h4 class="bg-danger d-inline-block p-1 text-light">
+                    OUR ESTEEMED CLIENTS
+                </h4>
+                <h2 class="fw-bold">We are Proud to Work With</h2>
+            </div>
 
-        <div class="text-center mb-4">
-            <button class="custom-btn px-5 py-3 border-0">MORE ABOUT OUR PROJECTS</button>
-        </div>
-    </section>
-
-
-
-    <section class="testimonial-section col mb-5 position-relative">
-        <div class="container text-center">
-
-            <h4 class="  bg-danger d-inline-block p-1 text-light  my-3">TESTIMONIAL</h4>
-            <h2 class="fw-bold mb-4  "> What our customers say</h2>
-
-
-            <div class="testimonial">
-                <div id="carouselExampleCaptions" class="carousel slide innerbody" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
-                            class="active carousel-radio " aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                            aria-label="Slide 2" class="carousel-radio "></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                            aria-label="Slide 3" class="carousel-radio "></button>
+            <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-inner clients">
+                    <div class="carousel-item active">
+                        <div class="card-wrapper container-sm d-flex justify-content-around">
+                            <img src="assets/clients/client5.jpg" class="clients-img" alt="1" />
+                            <img src="assets/clients/client2.png" class="clients-img" alt=".2." />
+                            <img src="assets/clients/client3.png" class="clients-img" alt="3" />
+                            <img src="assets/clients/client4.png" class="clients-img" alt="4." />
+                            <img src="assets/clients/client12.jpg" class="clients-img" alt="5" />
+                            <img src="assets/clients/client6.jpg" class="clients-img" alt="6" />
+                        </div>
                     </div>
-
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="testimonial-body">
-                                <h5 class="describe">"SAC's expertise and specialized knowledge in Hydrological and
-                                    Hydraulic Modeling have been crucial to the project's success.</h5>
-
-                                <div class="d-flex justify-content-center mt-4">
-                                    <img src="assets/thanks1.jpeg" class="rounded-3" alt="" width="100px"
-                                        height="100px">
-                                    <div class="my-auto ms-3 text-start">
-                                        <h5 class="my-0">Sherif Ezz</h5>
-                                        <h6>Project Manager </h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="testimonial-body">
-                                <h5 class="describe">Since our cooperation started, we have become more robust with the
-                                    knowledge and support you have provided us. "</h5>
-                                <div class=" d-flex justify-content-center mt-4">
-                                    <img src="assets/thank2.png" class="rounded-3" alt="" width="100px" height="100px">
-                                    <div class="my-auto ms-3 text-start">
-                                        <h5 class="my-0 ">Amr Al Bawab </h5>
-                                        <h6>Cheif CO </h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="testimonial-body">
-                                <h5 class="describe">We are writing this Letter to express our appreciation to work with
-                                    Super Arc Consultant on Track Modification project as one of our sub-consultants
-                                    particularly for the soil improvement works.</h5>
-
-                                <div class="d-flex justify-content-center mt-4">
-                                    <img src="assets/thank3.jpeg" class="rounded-3" alt="" width="100px" height="100px">
-                                    <div class="my-auto ms-3 text-start">
-
-                                        <h5 class="my-0">Roberto Elsisura</h5>
-                                        <h6>Project Manager </h6>
-                                    </div>
-                                </div>
+                    <div class="carousel-item">
+                        <div class="card-wrapper container-sm d-flex justify-content-around">
+                            <div class="card-wrapper container-sm d-flex justify-content-around">
+                                <img src="assets/clients/client7.png" class="clients-img" alt="..." />
+                                <img src="assets/clients/client8.png" class="clients-img" alt="..." />
+                                <img src="assets/clients/client9.jpg" class="clients-img" alt="..." />
+                                <img src="assets/clients/client10.png" class="clients-img" alt="..." />
+                                <img src="assets/clients/client11.png" class="clients-img" alt="..." />
+                                <img src="assets/clients/client12.jpg" class="clients-img" alt="..." />
                             </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    <div class="carousel-item">
+                        <div class="card-wrapper container-sm d-flex justify-content-around">
+                            <div class="card-wrapper container-sm d-flex justify-content-around">
+                                <img src="assets/clients/client13.webp" class="clients-img" alt="..." />
+                                <img src="assets/clients/client14.jpeg" class="clients-img" alt="..." />
+                                <img src="assets/clients/client15.jpg" class="clients-img" alt="..." />
+                                <img src="assets/clients/client16.png" class="clients-img" alt="..." />
+                                <img src="assets/clients/client17.png" class="clients-img" alt="..." />
+                                <img src="assets/clients/client18.png" class="clients-img" alt="..." />
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
                         data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
                         data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
             </div>
-
-        </div>
-    </section>
-
-
-
-
-
-    <section class="news p-5 ">
-        <div class="row gap-2 ">
-            <div class="card border-0 ">
-                <p class="p ps-1"> INSIGHT</p>
-                <h1> Latest Article and News </h1>
-                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
-                    mattis, pulvinar dapibus leo. </h4>
-                <button class="custom-btn d-inline">More Article</button>
-            </div>
-            <div class="card">
-                <img src="assets/b.jpg" class="card-img" alt="...">
-                <div class="card-body">
-                    <li class="list-group-item my-3 text-danger">Date</li>
-                    <h5 class="card-title">News title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the card's content.</p>
-                </div>
-            </div>
-
-            <div class="card ">
-                <img src="assets/d.jpg" class="card-img  " alt="...">
-                <div class="card-body">
-                    <li class="list-group-item my-3 text-danger">Date</li>
-                    <h5 class="card-title">News title</h5>
-                    <p class="card-text pb-2">Some quick example text to build on the card title and make up the
-                        bulk of
-                        the card's content.</p>
-                </div>
-            </div>
-        </div>
-
-
-    </section>
-
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-
-
-    <div class="text-center text-secondary my-5 ">
-
-        <h4 class="  bg-danger d-inline-block p-1 text-light ">OUR ESTEEMED CLIENTS</h4>
-        <h2 class="fw-bold "> We are Proud to Work With</h2>
-
-
-    </div>
-
-    <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
-        <div class="carousel-inner clients">
-            <div class="carousel-item active">
-                <div class="card-wrapper container-sm d-flex  justify-content-around">
-                    <img src="assets/clients/client5.jpg" class="clients-img" alt="1">
-                    <img src="assets/clients/client2.png" class=" clients-img" alt=".2.">
-                    <img src="assets/clients/client3.png" class=" clients-img" alt="3">
-                    <img src="assets/clients/client4.png" class=" clients-img" alt="4.">
-                    <img src="assets/clients/client12.jpg" class=" clients-img" alt="5">
-                    <img src="assets/clients/client6.jpg" class=" clients-img" alt="6">
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="card-wrapper container-sm d-flex   justify-content-around">
-                    <div class="card-wrapper container-sm d-flex  justify-content-around">
-                        <img src="assets/clients/client7.png" class="clients-img" alt="...">
-                        <img src="assets/clients/client8.png" class=" clients-img" alt="...">
-                        <img src="assets/clients/client9.jpg" class=" clients-img" alt="...">
-                        <img src="assets/clients/client10.png" class=" clients-img" alt="...">
-                        <img src="assets/clients/client11.png" class=" clients-img" alt="...">
-                        <img src="assets/clients/client12.jpg" class=" clients-img" alt="...">
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="card-wrapper container-sm d-flex  justify-content-around">
-                    <div class="card-wrapper container-sm d-flex  justify-content-around">
-                        <img src="assets/clients/client13.webp" class="clients-img" alt="...">
-                        <img src="assets/clients/client14.jpeg" class=" clients-img" alt="...">
-                        <img src="assets/clients/client15.jpg" class=" clients-img" alt="...">
-                        <img src="assets/clients/client16.png" class=" clients-img" alt="...">
-                        <img src="assets/clients/client17.png" class=" clients-img" alt="...">
-                        <img src="assets/clients/client18.png" class=" clients-img" alt="...">
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-
-
-
-
-        <!-- <section class="mt-5">
-            <div class="text-center text-secondary mt-5">
-                <h6 class="title3 ">OUR ESTEEMED CLIENTS</h6>
-                <h1 class="w-100">We are Proud to Work With</h1>
-            </div>
-            <div class="clients-container">
-                <div class="clients-image">
-                    <img src="assets/client1.png" class="border p-4" alt="logo">
-                    <img src="assets/client2.png" class="border p-4" alt="logo">
-                    <img src="assets/client3.png" class="border p-4" alt="logo">
-                    <img src="assets/client8.png" class="border p-4" alt="logo">
-                    <img src="assets/client4.png" class="border p-4" alt="logo">
-                    <img src="assets/client12.jpg" class="border p-4" alt="logo">
-                    <img src="assets/client6.jpg" class="border p-4" alt="logo">
-                    <img src="assets/client7.png" class="border p-4" alt="logo">
-                    <img src="assets/client13.webp" class="border p-4" alt="logo">
-                    <img src="assets/client14.jpeg" class="border p-4" alt="logo">
-                </div>
-            </div>
-        </section> -->
-
-        <section class="mt-5" id="contact">
-            <footer class="bg-danger text-light">
-                <div class="container pt-5">
-                    <div class="col-md-12">
-                        <div class="row">
-                            <div class="col-md-6 mb-md-0 mb-4">
-                                <h2 class="footer-heading"><img src="./assets/sac.jpg" alt="" class="w-25 p-2 bg-light">
-                                </h2>
-                                <p>Super Arc Consultant (SAC) is a multi-disciplinary design and engineering
-                                    consultancy firm providing services of all types of architectural,
-                                    Structural,Infrastructural and building assessment projects.</p>
-                            </div>
-                            <div class="col-md-3 mb-md-0 mb-4">
-                                <h2 class="footer-heading">Company</h2>
-                                <ul class="list-unstyled">
-
-                                    <li>
-                                        <a href="#home" class="text-decoration-none text-light  cursor-pointer">
-                                            <i class="bi bi-arrow-right-short"></i>Home
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#about" class="text-decoration-none text-light  cursor-pointer"> <i
-                                                class="bi bi-arrow-right-short"></i>About
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#service" class="text-decoration-none text-light  cursor-pointer"> <i
-                                                class="bi bi-arrow-right-short"></i>Service
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#project" class="text-decoration-none text-light  cursor-pointer"> <i
-                                                class="bi bi-arrow-right-short"></i>Projects
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div class="col-md-3 mb-md-0 mb-4">
-                                <h2 class="footer-heading">Address</h2>
-                                <ul class="list-unstyled">
-                                    <div class="d-block"> <i class="me-2 fa-solid fa-address-book"></i>9th Street, M-15,
-                                        Abu Dhabi, UAE</div>
-                                    <div class="d-block"> <i class="me-2 fa-solid fa-phone"></i>+971 547 202014</div>
-                                    <div class="d-block"><i class="me-2 fa-solid fa-envelope"></i> info@superarc.net
-                                    </div>
-                                    <div class="d-block"> <i class="me-2 fa-solid fa-globe"></i> www.superarc.net</div>
-                                </ul>
-                            </div>
-                        </div>
-
-
-                        <div class="row mt-5 pt-4 border-top text-center">
-                            <div class="col-md-6 col-lg-12 mb-md-0 mb-4-5">
-                                <p class="copyright mb-1">
-                                    Copyright ©
-                                    <script>document.write(new Date().getFullYear());</script> All rights reserved. |
-                                    Devolped by <a href="http://www.webitgroup.com"
-                                        class="text-decoration-none text-light  cursor-pointer">Mizmar Technologies</a>
-                                </p>
-                            </div>
-
-                        </div>
-
-            </footer>
         </section>
+    </main>
 
+    <section class="mt-5" id="contact">
+        <footer class="bg-danger text-light footer">
+            <div class="container pt-5">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-6 mb-md-0 mb-4">
+                            <h2 class="footer-heading">
+                                <img src="./assets/sac.jpg" alt="" class="w-25 p-2 bg-light" />
+                            </h2>
+                            <p class="p">
+                                Super Arc Consultant (SAC) is a multi-disciplinary design and
+                                engineering consultancy firm providing services of all types
+                                of architectural, Structural,Infrastructural and building
+                                assessment projects.
+                            </p>
+                        </div>
+                        <div class="col-md-3 mb-md-0 mb-4">
+                            <h2 class="footer-heading p">Company</h2>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#home" class="text-decoration-none text-light cursor-pointer p">
+                                        <i class="bi bi-arrow-right-short"></i>Home
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#about" class="text-decoration-none text-light cursor-pointer p">
+                                        <i class="bi bi-arrow-right-short"></i>About
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#service" class="text-decoration-none text-light cursor-pointer p">
+                                        <i class="bi bi-arrow-right-short"></i>Service
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#project" class="text-decoration-none text-light cursor-pointer">
+                                        <i class="bi bi-arrow-right-short"></i>Projects
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
 
-        <script>
-            function incrementNumber(targetId, targetNumber, speed) {
-                const targetElement = document.getElementById(targetId);
-                let currentNumber = 0;
-                const incrementSpeed = speed;
+                        <div class="col-md-3 mb-md-0 mb-4">
+                            <h2 class="footer-heading">Address</h2>
+                            <ul class="list-unstyled">
+                                <div class="d-block p">
+                                    <i class="me-2 fa-solid fa-address-book "></i>9th Street,
+                                    M-15, Abu Dhabi, UAE
+                                </div>
+                                <div class="d-block ">
+                                    <i class="me-2 fa-solid fa-phone"></i>+971 547 202014
+                                </div>
+                                <div class="d-block ">
+                                    <i class="me-2 fa-solid fa-envelope"></i> info@superarc.net
+                                </div>
+                                <div class="d-block">
+                                    <i class="me-2 fa-solid fa-globe"></i> www.superarc.net
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
 
-                function increment() {
-                    if (currentNumber < targetNumber) {
-                        currentNumber += incrementSpeed;
-                        targetElement.textContent = currentNumber;
-                        setTimeout(increment, 100); // Delay between increments
-                    } else {
-                        targetElement.textContent = targetNumber;
-                    }
-                }
-                increment();
-            }
-            incrementNumber('projectCount', 150, 6);
-            incrementNumber('clientCount', 130, 5);
-            incrementNumber('awardCount', 25, 1);
-            incrementNumber('teamCount', 40, 2);
-        </script>
+                    <div class="row mt-5 pt-4 border-top text-center">
+                        <div class="col-md-6 col-lg-12 mb-md-0 mb-4-5">
+                            <p class="copyright mb-1">
+                                Copyright ©
+                                <script>
+                                    document.write(new Date().getFullYear());
+                                </script>
+                                All rights reserved. | Develpped by
+                                <a href="http://www.webitgroup.com"
+                                    class="text-decoration-none text-light cursor-pointer">Mizmar Technologies</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <script src="JavaScript.js"></script>
 </body>
-
 
 </html>
