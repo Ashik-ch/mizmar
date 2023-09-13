@@ -88,8 +88,10 @@
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="/service/service1.html">Condition assessment Service
                                     </a></li>
-                                <li><a class="dropdown-item" href="#"> Architectural Engineering Services</a></li>
-                                <li><a class="dropdown-item" href="#"> Dilapidation Survey Services</a></li>
+                                <li><a class="dropdown-item" href="/service2/service2.html"> Architectural Engineering
+                                        Services</a></li>
+                                <li><a class="dropdown-item" href="/service3/service3.html"> Dilapidation Survey
+                                        Services</a></li>
                                 <li><a class="dropdown-item" href="#"> Dilapidation Survey Services </a></li>
                                 <li><a class="dropdown-item" href="#"> Strengthening and rehabilitation Services </a>
                                 </li>
@@ -419,14 +421,76 @@
                             </p>
                         </div>
                     </div>
+                    <!-- Button trigger modal -->
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header text-bg-danger">
+                                    <h5 class="modal-title " id="exampleModalLabel">The Diamond Tower</h5>
+                                    <button type="button" class="btn-close btn btn-light" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body px-4 pb-5 pt-2 fs-5">
+
+                                    Track Modification for Yas marina circuit - Geotechnical Assessment .
+                                    Design &
+                                    Supervision of soil improvement works in relation to track located at
+                                    YAS Marina
+                                    Circuit, Abu Dhabi
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header text-bg-danger">
+                                    <h5 class="modal-title " id="exampleModalLabel">The diamond Tower</h5>
+                                    <button type="button" class="btn-close btn btn-light" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body px-4 pb-5 pt-2 fs-5">
+                                    Existing Residential Tower - Structural Assessment, Comprehensive Assessment for
+                                    distressed basement 1 & 2, Preparing tender documents and evaluation of repair
+                                    contractors, Supervision.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header text-bg-danger">
+                                    <h5 class="modal-title " id="exampleModalLabel">The Ciel tower</h5>
+                                    <button type="button" class="btn-close btn btn-light" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body px-4 pb-5 pt-2 fs-5">
+                                    Under construction Hotel - Geotechnical & structural assessment, Technical Study for
+                                    the Effect of Ciel Tower Foundations & Shoring Systems On Bridge Retaining
+                                    Wall And Quay Wall
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
 
                     <div class="img-container">
                         <img class="img" src="assets/project1.jpg" alt="Image">
                         <div class="overlay">
                             <div class="overlay-text text-center">
                                 <div> The Diamond Tower</div>
-                                <div class=" d-inline-block    border border-1  px-2 py-1 mt-5 fs-5">
-                                    Read More... </div>
+                                <button type="button" class="d-inline-block border border-1  px-2 py-1 mt-5 fs-5"
+                                    data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                                    Read More <i class="fa-solid fa-angles-right fa-2xs"></i>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -435,10 +499,10 @@
                         <div class="overlay">
                             <div class="overlay-text text-center">
                                 <div>Yas Marina Circuit</div>
-                                <div
-                                    class=" d-inline-block  text-light border-light border border-1 px-2 py-1 mt-5 fs-5">
-                                    Read More ...
-                                </div>
+                                <button type="button" class="d-inline-block border border-1  px-2 py-1 mt-5 fs-5"
+                                    data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                    Read More <i class="fa-solid fa-angles-right fa-2xs"></i>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -447,8 +511,10 @@
                         <div class="overlay text-center">
                             <div class="overlay-text">
                                 <div>The Ciel Dubai</div>
-                                <div class=" d-inline-block border border-1 px-2 py-1 mt-5 fs-5"> Read More ...
-                                </div>
+                                <button type="button" class="d-inline-block border border-1  px-2 py-1 mt-5 fs-5"
+                                    data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                                    Read More <i class="fa-solid fa-angles-right fa-2xs"></i>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -639,91 +705,11 @@
 
 
 
-        <!-- <section class="testimonial-section my-5 pb-5 ">
-            <div class="section-bg"></div>
-            <div class="container text-center text-light">
-                <h4 class="d-inline-block p-1 fw-bold   mt-4 mb-2">
-                    TESTIMONIAL
-                </h4>
-                <h2 class="display-6 mb-4">What our customers say</h2>
-
-                <div class="testimonial">
-                    <div id="carouselExampleCaptions" class="carousel slide innerbody" data-bs-ride="carousel"
-                        data-bs-interval="1500">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
-                                class="active carousel-radio" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                                aria-label="Slide 2" class="carousel-radio"></button>
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                                aria-label="Slide 3" class="carousel-radio"></button>
-                        </div>
-
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="testimonial-body bg-light text-dark">
-                                    <h5 class=" ">
-                                        SAC's expertise and specialized knowledge in Hydrological
-                                        and Hydraulic Modeling have been crucial to the project's
-                                        success.
-                                    </h5>
-
-                                    <div class="d-flex justify-content-center mt-4">
-                                        <img src="assets/thanks1.jpeg" class="rounded-3" alt="" width="100px"
-                                            height="100px" />
-                                        <div class="my-auto ms-3 text-start">
-                                            <h5 class="my-0">Sherif Ezz</h5>
-                                            <h6>Project Manager</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="testimonial-body bg-light text-dark">
-                                    <h5 class=" ">
-                                        Since our cooperation started, we have become more robust
-                                        with the knowledge and support you have provided us. "
-                                    </h5>
-                                    <div class="d-flex justify-content-center mt-4">
-                                        <img src="assets/thank2.png" class="rounded-3  border border-1" alt=""
-                                            width="100px" height="100px" />
-                                        <div class="my-auto ms-3 text-start">
-                                            <h5 class="my-0">Amr Al Bawab</h5>
-                                            <h6>Cheif CO</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="testimonial-body bg-light text-dark">
-                                    <h5 class=" ">
-                                        We are writing this Letter to express our appreciation to
-                                        work with Super Arc Consultant on Track Modification
-                                        project as one of our sub-consultants particularly for the
-                                        soil improvement works.
-                                    </h5>
-
-                                    <div class="d-flex justify-content-center mt-4">
-                                        <img src="assets/thank3.jpeg" class="rounded-3" alt="" width="100px"
-                                            height="100px" />
-                                        <div class="my-auto ms-3 text-start">
-                                            <h5 class="my-0">Roberto Elsisura</h5>
-                                            <h6>Project Manager</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>               </div>
-                </div>
-            </div>
-        </section> -->
-
-
         <!-- NEWS -->
         <section class="container-fluid news p-5">
             <div class="d-flex flex-wrap gap-2">
                 <div class="card border-0 card1">
-                    <p class="p ps-1">INSIGHT</p>
+                    <p class=" text-bg-dark ps-1">INSIGHT</p>
                     <h1>Latest Article and News</h1>
                     <h4>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit

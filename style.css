@@ -20,6 +20,7 @@ font-family: 'Red Hat Display', sans-serif; */
   --bs-border-color-translucent: rgb(91 53 53 / 0%);
   --bs-border-radius: 0;
   --bs-dropdown-spacer: 1.125rem !important;
+  --bs-border-radius-lg: 0 !important;
 }
 
 .primary-c {
