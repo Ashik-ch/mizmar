@@ -1,8 +1,71 @@
+:root {
+
+    --color-1: rgb(255, 255, 255);
+    --color-2: rgb(235, 243, 255);
+
+    --primary: #ED1C24;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.first-div {
+    .blockquote .p {
+        text-indent: 0px;
+    }
+
+    p {
+        text-indent: 25px;
+    }
+}
+
+.c1 {
+    color: var(--primary);
+}
+
+
 * {
     color: rgb(41, 41, 41);
     text-align: justify;
+    font-family: 'Montserrat', sans-serif;
 }
+
+
 
 .h5 {
     text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.li {
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.first-div {
+    background-color: var(--color-1);
+}
+
+.sec-div {
+    background-color: var(--color-2);
+}
+
+.third-div {
+    background-color: var(--color-1);
+
+    .li {
+        text-transform: capitalize;
+        font-size: 20px;
+    }
+}
+
+.fourth-div {
+    background-color: var(--color-2);
+}
+
+
+.fifth-div {
+    background-color: var(--color-1);
 }
