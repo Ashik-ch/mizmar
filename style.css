@@ -16,6 +16,10 @@ font-family: 'Red Hat Display', sans-serif; */
   --secondary: #001064;
   --light: #f6f7f8;
   --dark: #010a35;
+
+  --bs-border-color-translucent: rgb(91 53 53 / 0%);
+  --bs-border-radius: 0;
+  --bs-dropdown-spacer: 1.125rem !important;
 }
 
 .primary-c {
@@ -45,6 +49,8 @@ font-family: 'Red Hat Display', sans-serif; */
   font-weight: 500;
   color: grey;
 }
+
+
 
 .custom-btn {
   color: var(--primary);
@@ -122,6 +128,20 @@ font-family: 'Red Hat Display', sans-serif; */
 
   .nav-link:hover {
     color: var(--primary);
+  }
+
+  .dropdown-menu {
+    --bs-dropdown-spacer: 1.125rem;
+
+    .dropdown-item {
+      text-transform: capitalize;
+
+    }
+
+    .dropdown-item:hover {
+      color: rgb(255, 255, 255);
+      background-color: #dc3545;
+    }
   }
 }
 
@@ -202,8 +222,14 @@ font-family: 'Red Hat Display', sans-serif; */
   z-index: -12;
   background-attachment: fixed;
 
+
+  .btn-container {
+    margin-bottom: auto;
+  }
+
   .custom-card {
-    max-width: 350px;
+    max-width: 360px;
+    height: 470px;
     padding: 2em 1.5em;
     background: linear-gradient(#ffffff 50%, #dc3545 50%);
     background-size: 100% 200%;
@@ -211,7 +237,6 @@ font-family: 'Red Hat Display', sans-serif; */
     border-radius: 5px;
     cursor: pointer;
     transition: 0.5s;
-    height: 420px;
     z-index: 15;
     overflow: auto;
     animation-timing-function: ease-in-out;
