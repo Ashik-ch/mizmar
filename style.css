@@ -9,13 +9,13 @@ font-family: 'Red Hat Display', sans-serif; */
 }
 
 :root {
-  --primary: #dc3545;
+  --primary: #ED1C24;
   --color2: #ffe9e9;
   --color3: #ff8d8d;
 
   --secondary: #001064;
   --light: #f6f7f8;
-  --dark: #010a35;
+  --dark: #414042;
 
   --bs-border-color-translucent: rgb(91 53 53 / 0%);
   --bs-border-radius: 0;
@@ -50,6 +50,19 @@ font-family: 'Red Hat Display', sans-serif; */
   color: grey;
 }
 
+
+.btn-dark1 {
+  color: var(--dark);
+  background-color: white;
+  border: 0;
+
+}
+
+.btn-dark1:hover {
+  color: white;
+  background-color: var(--dark);
+  border: 1px solid #ffffff;
+}
 
 
 .custom-btn {
@@ -96,7 +109,7 @@ font-family: 'Red Hat Display', sans-serif; */
     left: 0px;
     width: 0;
     height: 0;
-    border-right: 88px solid #dc3545;
+    border-right: 88px solid var(--primary);
     border-top: 88px solid #ffffff;
   }
 
@@ -117,7 +130,7 @@ font-family: 'Red Hat Display', sans-serif; */
 /* ----- NAVBAR --------- */
 .navbar {
   padding: 10px 0;
-  z-index: 10;
+
 
   .nav-link {
     font-weight: 700;
@@ -131,7 +144,7 @@ font-family: 'Red Hat Display', sans-serif; */
   }
 
   .dropdown-menu {
-    --bs-dropdown-spacer: 1.125rem;
+    --bs-dropdown-spacer: .5rem;
 
     .dropdown-item {
       text-transform: capitalize;
@@ -219,7 +232,7 @@ font-family: 'Red Hat Display', sans-serif; */
 .section-service {
   background: linear-gradient(#00000070, #00000082), url(assets/about.avif);
   background-size: cover;
-  z-index: -12;
+  z-index: -1;
   background-attachment: fixed;
 
 
@@ -229,7 +242,7 @@ font-family: 'Red Hat Display', sans-serif; */
 
   .custom-card {
     max-width: 360px;
-    height: 470px;
+    height: 450px;
     padding: 2em 1.5em;
     background: linear-gradient(#ffffff 50%, #dc3545 50%);
     background-size: 100% 200%;
@@ -237,7 +250,7 @@ font-family: 'Red Hat Display', sans-serif; */
     border-radius: 5px;
     cursor: pointer;
     transition: 0.5s;
-    z-index: 15;
+    z-index: 1;
     overflow: auto;
     animation-timing-function: ease-in-out;
     animation-duration: 2s;
@@ -343,7 +356,7 @@ font-family: 'Red Hat Display', sans-serif; */
     }
 
     .img-container {
-      width: 420px;
+      width: 440px;
       height: 500px;
       position: relative;
       overflow: hidden;
@@ -414,6 +427,7 @@ font-family: 'Red Hat Display', sans-serif; */
 .testimonial-section {
   position: relative;
 
+
   .section-bg {
     background: linear-gradient(#23014fb2, #3c0000dc),
       url(https://img.freepik.com/free-photo/colleagues-with-safety-equipment-showing-ok-sign_23-2148908426.jpg?w=740&t=st=1694540984~exp=1694541584~hmac=0fa3b2a33ebc4355c47338a974c92b0610f0239a7fb97cbf35b883884baa59ab);
@@ -435,14 +449,15 @@ font-family: 'Red Hat Display', sans-serif; */
     align-items: center;
     position: relative;
 
+
     .carousel {
-      max-width: 540px;
+      max-width: 640px;
 
       .testimonial-body {
-        border-radius: 10px;
+        /* border-radius: 10px;
         padding-inline: 50px;
         padding-block: 45px;
-        text-align: center;
+        text-align: center; */
         height: 320px;
       }
     }
@@ -540,7 +555,7 @@ font-family: 'Red Hat Display', sans-serif; */
 
 /* footer */
 .footer {
-  box-shadow: 1px 1px 14px 2px rgb(0, 0, 0);
+
   font-family: 'Red Hat Display', sans-serif;
 
   .p,
