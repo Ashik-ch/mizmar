@@ -8,12 +8,18 @@ font-family: 'Red Hat Display', sans-serif; */
   font-family: "Raleway", sans-serif;
 }
 
+/* BLACK CODE= #414042
+ 
+REd CODE= #ED1C24 */
+
 :root {
   --primary: #ED1C24;
-  --color2: #ffe9e9;
-  --color3: #ff8d8d;
+  --secondary: #414042;
 
-  --secondary: #001064;
+
+  --color2: #ffe9e9;
+  /* --color3: #ff8d8d; */
+
   --light: #f6f7f8;
   --dark: #414042;
 
@@ -23,8 +29,14 @@ font-family: 'Red Hat Display', sans-serif; */
   --bs-border-radius-lg: 0 !important;
 }
 
+
+
 .primary-c {
   color: var(--primary);
+}
+
+.primary-bg {
+  background-color: var(--primary);
 }
 
 .light-c {
@@ -52,17 +64,16 @@ font-family: 'Red Hat Display', sans-serif; */
 }
 
 
-.btn-dark1 {
-  color: var(--dark);
+.btn-1 {
+  color: var(--primary);
   background-color: white;
   border: 0;
-
 }
 
-.btn-dark1:hover {
-  color: white;
-  background-color: var(--dark);
-  border: 1px solid #ffffff;
+.btn-1:hover {
+  color: #fff;
+  background-color: var(--primary);
+
 }
 
 
@@ -76,7 +87,7 @@ font-family: 'Red Hat Display', sans-serif; */
 }
 
 .custom-btn:hover {
-  background-color: #dc3545;
+  background-color: var(--primary);
   color: #fff;
 }
 
@@ -180,7 +191,7 @@ font-family: 'Red Hat Display', sans-serif; */
   }
 
   .carousel-text {
-    animation: low-high .8s ease-in-out;
+    animation: left-right 1s ease-in-out;
   }
 
   .carousel-control-prev,
@@ -237,9 +248,23 @@ font-family: 'Red Hat Display', sans-serif; */
   background-attachment: fixed;
 
 
-  .btn-container {
-    margin-bottom: auto;
-  }
+  /* .custom-card {
+    max-width: 360px;
+    height: 450px;
+    padding: 2em 1.5em;
+    background: linear-gradient(#ffffff 50%, #dc3545 50%);
+    background-size: 100% 200%;
+    background-position: 0 2.5%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    z-index: 1;
+    overflow: auto;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-name: left-right;
+  } */
+
 
   .custom-card {
     max-width: 360px;
@@ -256,7 +281,21 @@ font-family: 'Red Hat Display', sans-serif; */
     animation-timing-function: ease-in-out;
     animation-duration: 2s;
     animation-name: left-right;
+    display: flex;
+    /* Add flex display to the card */
+    flex-direction: column;
+    /* Stack child elements vertically */
+    justify-content: space-between;
+    /* Space between card content and "Read More" button */
   }
+
+  .custom-btn {
+    margin-top: 10px;
+
+  }
+
+
+
 
   .card1 {
     animation-duration: 1s;
@@ -346,7 +385,6 @@ font-family: 'Red Hat Display', sans-serif; */
   position: relative;
 
 
-
   .projects {
     display: flex;
     flex-wrap: wrap;
@@ -357,7 +395,7 @@ font-family: 'Red Hat Display', sans-serif; */
     }
 
     .img-container {
-      width: 440px;
+      width: 380px;
       height: 500px;
       position: relative;
       overflow: hidden;
@@ -464,7 +502,7 @@ font-family: 'Red Hat Display', sans-serif; */
     }
 
     .carousel-indicators {
-      margin-bottom: -2rem !important;
+      margin-bottom: -1rem !important;
       color: var(--primary);
     }
 
@@ -494,22 +532,39 @@ font-family: 'Red Hat Display', sans-serif; */
   margin-top: 25px;
 
 
-  .p {
-    background-color: var(--primary);
-    color: #fff;
+  .box-card {
+    box-shadow: 1px 1px 10px .5px rgba(0, 0, 0, 0.247);
   }
+
 
   .card {
     border-radius: 0;
-    height: 450px;
-    width: 25.5rem !important;
+    max-height: 450px;
+    font-family: 'Montserrat', sans-serif;
     animation-name: left-right;
+    border: 0;
+
+    .p {
+      font-weight: 700;
+      color: var(--primary);
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .h1 {
+      font-weight: 800;
+      font-family: 'Montserrat', sans-serif;
+    }
 
     .card-img {
       width: 100%;
       border-radius: 0;
       max-height: 200px;
       object-fit: cover;
+    }
+
+    .card-title {
+      font-family: 'Montserrat', sans-serif;
+      s
     }
   }
 }
@@ -556,7 +611,6 @@ font-family: 'Red Hat Display', sans-serif; */
 
 /* footer */
 .footer {
-
   font-family: 'Red Hat Display', sans-serif;
 
   .p,
@@ -567,6 +621,21 @@ font-family: 'Red Hat Display', sans-serif; */
   .copyright {
     font-family: 'Red Hat Display', sans-serif;
   }
+}
+
+.free-qoute {
+  margin: 45px 0;
+  color: var(--primary);
+
+  .btn-1 {
+    border: 1px solid var(--primary);
+  }
+
+  .bdr {
+    border: 1px solid var(--primary);
+  }
+
+
 }
 
 

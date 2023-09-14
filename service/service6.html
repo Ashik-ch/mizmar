@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Service</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- header -->
+    <header class="header w-100">
+      <div class="ms-5 img-pos">
+        <img src="../assets/sac.jpg" alt="" class="img" />
+      </div>
+      <div class="d-flex justify-content-evenly header-shape ms-auto flex-wrap">
+        <div class="d-flex align-items-center">
+          <i
+            class="fa-solid fa-location-dot fa-xl me-3 text-light d-none d-md-inline"
+          >
+          </i>
+          <i
+            class="fa-solid fa-location-dot fa-lg me-3 text-light d-md-none"
+          ></i>
+          <div class="text-light">
+            <b class="text-light">Abu Dhabi</b><br />
+            <span class="text-light font-r">9th Street, M-15, UAE</span>
+          </div>
+        </div>
+        <div class="d-flex align-items-center">
+          <i
+            class="fa-solid fa-envelope fa-xl me-3 text-light d-none d-md-inline"
+          ></i>
+          <i class="fa-solid fa-envelope fa-lg me-3 text-light d-md-none"></i>
+          <div class="text-light font-r">
+            <b class="font-r text-light">info@superarc.net</b><br />
+            <span class="text-light font-r">www.superarc.net</span>
+          </div>
+        </div>
+        <div class="d-flex align-items-center">
+          <i
+            class="fa-solid fa-phone-volume fa-xl me-3 text-light d-none d-md-inline"
+          ></i>
+          <i
+            class="fa-solid fa-phone-volume fa-lg me-3 text-light d-md-none"
+          ></i>
+          <div class="text-light">
+            <!-- <b>Contact</b><br /> -->
+            <span class="text-light font-r">+971 547 202014</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light sticky-top">
+      <div class="container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <div class="col">
+            <ul class="navbar-nav justify-content-center">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="../index.html"
+                >Home</a
+              >
+              <a class="nav-link" href="#about">About</a>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="../service/service1.html"
+                      >Condition assessment
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../service/service2.html">
+                      Architectural Engineering
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../service/service3.html">
+                      Dilapidation Survey
+                    </a>
+                  </li>
+
+                  <li>
+                    <a class="dropdown-item" href="../service/service4.html">
+                      Strengthening and rehabilitation
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../service/service5.html">
+                      Structural Engineering
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../service6/service6.html">
+                      Geotechnical engineering
+                    </a>
+                  </li>
+                </ul>
+              </li>
+
+              <a class="nav-link" href="#project">Projects</a>
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="sec-div">
+      <div class="container py-4">
+        <div class="row">
+          <div class="col py-4">
+            <blockquote class="blockquote">
+              <span class="fs-4 fw-semibold text-capitalize">
+                <span class="text-bg-dark px-4 text-center">
+                  Geotechnical Engineering Services</span
+                >to support the most fundamental aspect of every project
+              </span>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="first-div">
+      <div class="container pt-4">
+        <div class="row">
+          <div class="col">
+            <img
+              src="/assets/service6/Picture8.jpg"
+              alt=""
+              class="w-100 h-100"
+            />
+          </div>
+          <div class="col">
+            <h5>
+              One of the most fundamental elements of every development project
+              is the need to identify a site's subsurface characteristics and
+              composition of the site's soil and rock. Geotechnical assessments
+              are used to collect and analyze data to better understand
+              subsurface conditions. Understanding a project's design, intended
+              use, and how these subsurface materials interact, allows us to
+              determine potential engineering constraints, identify safety
+              hazards, and mitigate their impact on construction cost and
+              schedule. These assessments ensure project success by providing
+              this valuable information during the pre-planning stage of
+              projects and by optimizing engineering solutions throughout
+              construction.
+            </h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="first-div">
+      <div class="container pt-4">
+        <div class="row">
+          <div class="col">
+            <h5>
+              Our geotechnical services include subsurface investigations,
+              foundation design and analysis, laboratory testing, and
+              engineering studies and analysis. Through these services, we
+              assist owners and contractors in identifying geohazards, and
+              determining the safest, most resilient, and affordable earthwork
+              and foundation solutions. Super Arc Consultant expertise and
+              experience provides our clients confidence in knowing that they
+              will receive accurate, detailed, and timely information from an
+              engineering team familiar with the local terrain and regulations
+              and a company with the ability to meet fast-tracked deadlines and
+              the demand of major projects.
+            </h5>
+          </div>
+          <div class="col">
+            <img
+              src="/assets/service6/Picture9.jpg"
+              alt=""
+              class="w-100 h-100"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec-div">
+      <div class="container py-4">
+        <div class="row">
+          <h4 class="text-center mb-4">
+            SAC's Geotechnical Engineering Services:
+          </h4>
+          <div class="col">
+            <img src="/assets/service5/Picture7.png" alt="" class="w-100" />
+          </div>
+          <div class="col">
+            <h3 class="text-capitalize">Structural Services</h3>
+            <div class="li">
+              <i class="fa-solid fa-arrow-right me-3"></i>
+              Subsurface Investigation & Exploration
+            </div>
+            <div class="li">
+              <i class="fa-solid fa-arrow-right me-3"></i>
+              Foundation Design & Analysis
+            </div>
+            <div class="li">
+              <i class="fa-solid fa-arrow-right me-3"></i>
+              Design of various structure types
+            </div>
+            <div class="li">
+              <i class="fa-solid fa-arrow-right me-3"></i>
+              Geotechnical Assistance for Contractors
+            </div>
+            <div class="li">
+              <i class="fa-solid fa-arrow-right me-3"></i>
+              Geotechnical Laboratory Testing
+            </div>
+            <div class="li">
+              <i class="fa-solid fa-arrow-right me-3"></i> Geotechnical
+              Engineering Surveys, Studies & Analysis
+            </div>
+            <div class="li">
+              <i class="fa-solid fa-arrow-right me-3"></i> Tunnels And
+              Underground Engineering
+            </div>
+            <div class="li">
+              <i class="fa-solid fa-arrow-right me-3"></i>Slope Stability
+              Analysis and Design Seismic Engineering Risk analysis and Value
+              Management
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container py-4">
+        <div class="row">
+          <div class="col">
+            <h3>What is Geotechnical Engineering?</h3>
+            <h5>
+              Geotechnical engineering is a branch of civil engineering that
+              focuses on understanding the physical and mechanical properties of
+              soil and rock, and their interaction with the forces of engineered
+              structures above ground. Geotechnical engineers analyze the
+              stability of natural and constructed slopes and structures and
+              investigate soil and rock conditions through drilling, sampling,
+              and testing. Some common applications of geotechnical engineering
+              include the design of foundations, slopes and embankments,
+              retaining walls and tunnels.
+            </h5>
+            <h3>Why is Geotechnical Engineering Important?</h3>
+            <h5>
+              The subsurface characteristics of a site can significantly impact
+              the design and performance of engineered structures and without
+              proper geotechnical engineering pose the risk of catastrophic
+              consequences by structural failure. Geotechnical engineers play a
+              key role in developing and implementing specialized design and
+              construction solutions to mitigate potential risks and ensure the
+              safety, stability, and durability of the built environment.
+            </h5>
+          </div>
+          <div class="col">
+            <img
+              src="/assets/service6/Picture11.jpg"
+              alt=""
+              class="w-100 h-100"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section class="mt-5 footer bg-dark" id="contact">
+      <footer class="text-light footer">
+        <div>
+          <div class="pt-3 d-flex container">
+            <h2 class="text-light fw-bold">Super Arc Consultant (SAC)</h2>
+            <div class="pt-2 ms-auto">
+              <a
+                class="btn btn-square btn-outline-light me-0"
+                href="https://www.linkedin.com/company/super-arc-consultant-l-l-c/"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a
+                class="btn btn-square btn-outline-light me-1"
+                href="https://instagram.com/sacuae?igshid=MzNlNGNkZWQ4Mg=="
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a
+                class="btn btn-square btn-outline-light me-1"
+                href="https://www.facebook.com/superarc2/"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="btn btn-square btn-outline-light me-1" href=""
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+            </div>
+          </div>
+          <hr />
+
+          <div class="container col-md-12 pt-2">
+            <div class="row">
+              <div class="col-md-5 mb-md-0 mb-4">
+                <h2 class="footer-heading">
+                  <img src="../assets/Logo White.png" alt="" class="w-25 p-2" />
+                </h2>
+                <p class="p w-100 text-justify">
+                  Super Arc Consultant (SAC) is a multi-disciplinary design and
+                  engineering consultancy firm providing services of all types
+                  of architectural, Structural,Infrastructural and building
+                  assessment projects.
+                </p>
+              </div>
+              <div class="col-md-4 mb-md-0 mb-4">
+                <h2 class="footer-heading p">Company</h2>
+                <ul class="list-unstyled">
+                  <li>
+                    <a
+                      href="#home"
+                      class="text-decoration-none text-light cursor-pointer p"
+                    >
+                      <i class="fa-solid fa-arrow-right me-3"> </i>Home
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#about"
+                      class="text-decoration-none text-light cursor-pointer p"
+                    >
+                      <i class="fa-solid fa-arrow-right me-3"></i>About
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#service"
+                      class="text-decoration-none text-light cursor-pointer p"
+                    >
+                      <i class="fa-solid fa-arrow-right me-3"></i>Services
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#project"
+                      class="text-decoration-none text-light cursor-pointer"
+                    >
+                      <i class="fa-solid fa-arrow-right me-3"></i>Projects
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-md-3 mb-md-0 mb-4">
+                <h2 class="footer-heading">Address</h2>
+                <ul class="list-unstyled">
+                  <div class="d-block p">
+                    <i class="me-2 fa-solid fa-address-book"></i>Super Arc
+                    Consultant, <br />
+                    9th Street, M-15, Abu Dhabi, UAE
+                  </div>
+                  <div class="d-block">
+                    <i class="me-2 fa-solid fa-phone"></i>+971 547 202014
+                  </div>
+                  <div class="d-block">
+                    <i class="me-2 fa-solid fa-envelope"></i> info@superarc.net
+                  </div>
+                  <div class="d-block">
+                    <i class="me-2 fa-solid fa-globe"></i> www.superarc.net
+                  </div>
+                </ul>
+              </div>
+            </div>
+
+            <div class="row mt-5 pt-4 border-top text-center">
+              <div class="col-md-6 col-lg-12 mb-md-0 mb-4-5">
+                <p class="copyright mb-1 text-center">
+                  Copyright ©
+                  <script>
+                    document.write(new Date().getFullYear());
+                  </script>
+                  All rights reserved by Super Arc Consultant
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
